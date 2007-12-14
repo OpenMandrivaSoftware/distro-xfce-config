@@ -1,0 +1,8 @@
+[Entry 0]
+Name=MCC
+Exec=/usr/sbin/mcc
+Terminal=false
+StartupNotify=true
+Comment=Mandriva Control Center
+Icon=/usr/share/icons/drakconf.png
+

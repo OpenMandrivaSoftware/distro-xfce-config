@@ -1,0 +1,38 @@
+# tpg@mandriva.org
+
+prefix=$(prefix)
+xfceconfdir=$(sysconfdir)/X11/xdg
+xfceprofdir=$(localstatedir)/mandriva/xfce-profiles
+
+install:
+	-install -d $(DESTDIR)$(xfceconfdir)
+	-install -d $(DESTDIR)$(xfceconfdir)/Terminal
+	install -m 644 common/Terminal/* $(DESTDIR)$(xfceconfdir)/Terminal/
+	-install -d $(DESTDIR)$(xfceconfdir)/Thunar
+	install -m 644 common/Thunar/* $(DESTDIR)$(xfceconfdir)/Thunar/
+	-install -d $(DESTDIR)$(xfceconfdir)/autostart
+	install -m 644 common/autostart/* $(DESTDIR)$(xfceconfdir)/autostart/
+	-install -d $(DESTDIR)$(xfceconfdir)/xfce4
+	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/desktop
+	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/notication-deamon-xfce
+	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/panel
+	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/volstatus
+	install -m 644 common/xfce4/desktop/* $(DESTDIR)$(xfceconfdir)/xfce4/desktop/
+	install -m 644 common/xfce4/notication-daemon-xfce/* $(DESTDIR)$(xfceconfdir)/xfce4/notication-deamon-xfce/
+	install -m 644 common/xfce4/panel/* $(DESTDIR)$(xfceconfdir)/xfce4/panel/
+	install -m 644 common/xfce4/volstatus/* $(DESTDIR)$(xfceconfdir)/xfce4/volstatus/
+	install -m 644 common/xfce4/*.rc $(DESTDIR)$(xfceconfdir)/xfce4
+	install -m 644 common/xfce4/*.xrdb $(DESTDIR)$(xfceconfdir)/xfce4
+
+	-install -d $(DESTDIR)$(xfceprofdir)
+	-install -d $(DESTDIR)$(xfceprofdir)/Free/xfce4/mcs_settings
+	install -m 644 Free/xfce4/mcs_settings/*.xml $(DESTDIR)$(xfceprofdir)/Free/xfce4/mcs_settings/
+
+	-install -d $(DESTDIR)$(xfceprofdir)/One/xfce4/mcs_settings
+	install -m 644 One/xfce4/mcs_settings/*.xml $(DESTDIR)$(xfceprofdir)/One/xfce4/mcs_settings/
+
+	-install -d $(DESTDIR)$(xfceprofdir)/Powerpack/xfce4/mcs_settings
+	install -m 644 Powerpack/xfce4/mcs_settings/*.xml $(DESTDIR)$(xfceprofdir)/Powerpack/xfce4/mcs_settings/
+
+	-install -d $(DESTDIR)$(iconsdir)/Tango/32x32/apps
+	install -m 644 icons/*.png $(DESTDIR)$(iconsdir)/Tango/32x32/apps/

@@ -1,0 +1,2 @@
+If you are going to add new file or directory please add it to the Makefile.
+It is really easier to do this here rather than in spec file.
