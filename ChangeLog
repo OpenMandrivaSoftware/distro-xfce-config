@@ -1,7 +1,0 @@
-1.3.6:
-- enable volman actions
- o use brasero as a default CD/DVD burner
- o use f-spot-import for digital cameras
- o use totem for CD/DVD audio/video
-1.3.5:
-- add to Mandriva's svn repo
