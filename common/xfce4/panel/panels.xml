@@ -16,8 +16,12 @@
 		</properties>
 		<items>
 			<item name="showdesktop" id="1"/>
+			<item name="separator" id="11986291100"/>
 			<item name="pager" id="2"/>
+			<item name="separator" id="11986292313"/>
 			<item name="tasklist" id="3"/>
+			<item name="separator" id="11986292202"/>
+			<item name="windowlist" id="11986291591"/>
 		</items>
 	</panel>
 	<panel>

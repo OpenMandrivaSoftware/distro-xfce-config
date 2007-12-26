@@ -36,8 +36,6 @@ install:
 	-install -d $(DESTDIR)$(xfceprofdir)/Powerpack/xfce4/mcs_settings
 	install -m 644 Powerpack/xfce4/mcs_settings/*.xml $(DESTDIR)$(xfceprofdir)/Powerpack/xfce4/mcs_settings/
 
-	-install -d $(DESTDIR)$(iconsdir)/Tango/32x32/apps
-	install -m 644 icons/*.png $(DESTDIR)$(iconsdir)/Tango/32x32/apps/
 
 .PHONY: ChangeLog log changelog
 
