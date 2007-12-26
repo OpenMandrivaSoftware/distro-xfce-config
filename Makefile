@@ -1,5 +1,5 @@
 # tpg@mandriva.org
-NAME = mandriva-xfce-config
+PACKAGE = mandriva-xfce-config
 VERSION = 1.3.6
 
 prefix=$(prefix)
@@ -36,6 +36,19 @@ install:
 	-install -d $(DESTDIR)$(xfceprofdir)/Powerpack/xfce4/mcs_settings
 	install -m 644 Powerpack/xfce4/mcs_settings/*.xml $(DESTDIR)$(xfceprofdir)/Powerpack/xfce4/mcs_settings/
 
+cleandist:
+	rm -rf $(PACKAGE)-$(VERSION) $(PACKAGE)-$(VERSION).tar.bz2
+
+localcopy:
+	svn export -q -rBASE . $(PACKAGE)-$(VERSION)
+
+tar:
+	tar cvf $(PACKAGE)-$(VERSION).tar $(PACKAGE)-$(VERSION)
+	bzip2 -9vf $(PACKAGE)-$(VERSION).tar
+	rm -rf $(PACKAGE)-$(VERSION)
+# rules to build a distributable rpm
+
+dist: cleandist localcopy tar
 
 .PHONY: ChangeLog log changelog
 
