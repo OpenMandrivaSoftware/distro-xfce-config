@@ -46,7 +46,6 @@ tar:
 	tar cvf $(PACKAGE)-$(VERSION).tar $(PACKAGE)-$(VERSION)
 	bzip2 -9vf $(PACKAGE)-$(VERSION).tar
 	rm -rf $(PACKAGE)-$(VERSION)
-# rules to build a distributable rpm
 
 dist: cleandist localcopy tar
 
