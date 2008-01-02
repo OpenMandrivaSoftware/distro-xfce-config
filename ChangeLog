@@ -1,0 +1,55 @@
+2008-01-02 16:07  
+
+	* Makefile: - bump version
+
+2008-01-02 16:04  
+
+	* common/Terminal/terminalrc: - workaround for a vte's bug,
+	  backspace should now work under screen (#36455)
+
+2007-12-27 17:08  
+
+	* common/xfce4/panel/pager-2.rc: - set rows value to 1 for pager,
+	  as it is more readable and looks nicer
+
+2007-12-26 01:05  
+
+	* Makefile: SILENT clean makefile
+
+2007-12-26 01:04  
+
+	* Makefile: - complete the makefile
+
+2007-12-26 00:54  
+
+	* Makefile, common/xfce4/panel/pager-2.rc,
+	  common/xfce4/panel/panels.xml,
+	  common/xfce4/panel/separator-11986291100.rc,
+	  common/xfce4/panel/separator-11986292202.rc,
+	  common/xfce4/panel/separator-11986292313.rc,
+	  common/xfce4/panel/tasklist-3.rc,
+	  common/xfce4/panel/windowlist-11986291591.rc, icons: - new
+	  version 1.3.6
+	  - remove icons, as they are handled by xfdesktop package
+	  - make panel looks nicer
+	  o add some separators
+	  o do not use flat buttons in task list
+	  o add windowlist to the panel
+
+2007-12-19 01:25  
+
+	* ChangeLog: - clean ChangeLog file
+
+2007-12-14 19:48  
+
+	* Makefile: - update makefile
+
+2007-12-14 19:32  
+
+	* AUTHORS, ChangeLog, Free, Makefile, One, Powerpack, README,
+	  common, icons: Add move dirs to trunk
+
+2007-12-14 19:29  
+
+	* .: Add trunk
+
