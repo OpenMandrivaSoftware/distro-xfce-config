@@ -1,2 +1,4 @@
 [Configuration]
+BindingBackspace=TERMINAL_ERASE_BINDING_ASCII_DELETE
+BindingDelete=TERMINAL_ERASE_BINDING_ASCII_DELETE
 ShortcutsNoMenukey=TRUE
