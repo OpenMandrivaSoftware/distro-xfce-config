@@ -1,0 +1,9 @@
+Xfce doesn't update its configuration files into users home by itself.
+
+Please remove these directories manually in your home.
+
+~/.config/xfce4
+~/.config/Terminal
+~/.config/Thunar
+
+Do NOT to forget about doing backup of these directories.
