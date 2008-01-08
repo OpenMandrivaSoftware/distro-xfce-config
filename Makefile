@@ -1,6 +1,6 @@
 # tpg@mandriva.org
 PACKAGE = mandriva-xfce-config
-VERSION = 1.3.7
+VERSION = 1.3.8
 
 prefix=$(prefix)
 xfceconfdir=$(sysconfdir)/X11/xdg

@@ -1,2 +1,5 @@
-If you are going to add new file or directory please add it to the Makefile.
+A set of configuration files for Mandriva Xfce desktop environment.
+
+SVN:
+If you are going to add new files or directories please add specific entry into the Makefile.
 It is really easier to do this here rather than in spec file.
