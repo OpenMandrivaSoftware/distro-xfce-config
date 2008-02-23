@@ -27,6 +27,9 @@ install:
 	install -m 644 common/xfce4/*.xrdb $(DESTDIR)$(xfceconfdir)/xfce4
 
 	-install -d $(DESTDIR)$(xfceprofdir)
+	-install -d $(DESTDIR)$(xfceprofdir)/Flash/xfce4/mcs_settings
+	install -m 644 Flash/xfce4/mcs_settings/*.xml $(DESTDIR)$(xfceprofdir)/Flash/xfce4/mcs_settings/
+
 	-install -d $(DESTDIR)$(xfceprofdir)/Free/xfce4/mcs_settings
 	install -m 644 Free/xfce4/mcs_settings/*.xml $(DESTDIR)$(xfceprofdir)/Free/xfce4/mcs_settings/
 
