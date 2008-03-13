@@ -3,7 +3,7 @@
 <panels>
 	<panel>
 		<properties>
-			<property name="size" value="30"/>
+			<property name="size" value="24"/>
 			<property name="monitor" value="0"/>
 			<property name="screen-position" value="11"/>
 			<property name="fullwidth" value="1"/>
@@ -26,7 +26,7 @@
 	</panel>
 	<panel>
 		<properties>
-			<property name="size" value="36"/>
+			<property name="size" value="32"/>
 			<property name="monitor" value="0"/>
 			<property name="screen-position" value="2"/>
 			<property name="fullwidth" value="1"/>
