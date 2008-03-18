@@ -52,7 +52,7 @@
 
 <xfdesktop-menu>
 
-	<title name="Thực dơn desktop" icon="mandrake"/>
+	<title name="Thực dơn desktop" icon="/usr/share/icons/Tango/scalable/apps/mandriva.svg"/>
 
 	<separator/>
 
@@ -87,7 +87,7 @@
     <separator/>
 
     <app name="Giúp đỡ" cmd="xfhelp4" icon="gnome-help"/>
-    <app name="Giới thiệu Xfce" cmd="xfce4-about" icon="gnome-info"/>
+    <app name="Giới thiệu Xfce" cmd="xfce4-about" icon="info"/>
     <!--
       Lệnh này sẽ khiếnt xfce4-session thoát, sau khi xuất hiện hộp thoại
       đăng xuất.  Nếu xfce4-session không đang chạy, nó sẽ thoát xfdesktop.

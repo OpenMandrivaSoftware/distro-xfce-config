@@ -15,6 +15,6 @@
 	<include type="system" style="simple" unique="true" legacy="true"/>
 	<separator/>
 	<app name="Kılavuz" cmd="xfhelp4" icon="gnome-help"/>
-	<app name="Xfce Hakkında" cmd="xfce4-about" icon="gnome-info"/>
+	<app name="Xfce Hakkında" cmd="xfce4-about" icon="info"/>
 	<builtin name="Çık" cmd="quit" icon="gnome-logout"/>
 </xfdesktop-menu>

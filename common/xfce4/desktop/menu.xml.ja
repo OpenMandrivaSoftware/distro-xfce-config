@@ -81,7 +81,7 @@
 
 <xfdesktop-menu>
 
-    <title name="デスクトップメニュー" icon="mandrake"/>
+    <title name="デスクトップメニュー" icon="/usr/share/icons/Tango/scalable/apps/mandriva.svg"/>
 
     <separator/>
 
@@ -132,7 +132,7 @@
     <separator/>
 
     <app name="ヘルプ" cmd="xfhelp4" icon="gnome-help"/>
-    <app name="Xfce について" cmd="xfce4-about" icon="gnome-info"/>
+    <app name="Xfce について" cmd="xfce4-about" icon="info"/>
     <!--
       ログアウトのダイアログボックスを最初に表示した後で xfce4-session
       を終了させます。xfce4-session が動作していないなら、xfdesktop を

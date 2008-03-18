@@ -53,7 +53,7 @@
 
 <xfdesktop-menu>
 
-	<title name="Työpöytävalikko" icon="mandrake"/>
+	<title name="Työpöytävalikko" icon="/usr/share/icons/Tango/scalable/apps/mandriva.svg"/>
 
 	<separator/>
 
@@ -89,7 +89,7 @@
     <separator/>
 
     <app name="Ohje" cmd="xfhelp4" icon="gnome-help"/>
-    <app name="Tietoja Xfce:stä" cmd="xfce4-about" icon="gnome-info"/>
+    <app name="Tietoja Xfce:stä" cmd="xfce4-about" icon="info"/>
     <!--
       Tämä sulkee xfce4-sessionin, näyttäen ensin uloskirjautumisdialogin.
       Jos xfce4-session ei ole käynnissä, tämä sulkee xfdesktopin.

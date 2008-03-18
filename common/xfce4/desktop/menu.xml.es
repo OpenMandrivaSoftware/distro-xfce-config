@@ -52,7 +52,7 @@
 -->
 <xfdesktop-menu>
 
-	<title name="Desktop Menu" icon="mandrake"/>
+	<title name="Desktop Menu" icon="/usr/share/icons/Tango/scalable/apps/mandriva.svg"/>
 
 	<separator/>
 
@@ -87,7 +87,7 @@
     <separator/>
 
     <app name="Ayuda" cmd="xfhelp4" icon="gnome-help"/>
-    <app name="Acerca de Xfce" cmd="xfce4-about" icon="gnome-info"/>
+    <app name="Acerca de Xfce" cmd="xfce4-about" icon="info"/>
     <!--
       This will cause xfce4-session to quit, after first displaying a log-out
       dialog box.  If xfce4-session isn't running, it will quit xfdesktop.
