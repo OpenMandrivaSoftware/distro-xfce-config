@@ -4,5 +4,5 @@ Exec=/usr/sbin/mcc
 Terminal=false
 StartupNotify=true
 Comment=Mandriva Control Center
-Icon=/usr/share/icons/drakconf.png
+Icon=/usr/share/icons/Tango/scalable/apps/drakconf.svg
 
