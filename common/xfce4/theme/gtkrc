@@ -1,0 +1,26 @@
+style "xfce-panel"
+{
+# mandriva-xfce-panel.png is same as main panel height, which is 32 px
+bg_pixmap[NORMAL] = "mandriva-xfce-panel.png"
+}
+
+widget_class "*Panel*" style "xfce-panel"
+widget "*Panel*" style "xfce-panel"
+class "*Panel*" style "xfce-panel"
+
+widget "*PanelWidget*" style "xfce-panel"
+widget "*PanelApplet*" style "xfce-panel"
+class "*Tray*" style "xfce-panel"
+widget "*Tray*" style "xfce-panel"
+widget_class "*Mail*" style "xfce-panel"
+
+# make desktop's icons label transparent
+style "xfdesktop-icon-view" {
+
+XfdesktopIconView::label-alpha = 20
+
+base[NORMAL] = "#ffffff"
+
+fg[NORMAL] = "#ffffff"
+}
+widget_class "*XfdesktopIconView*" style "xfdesktop-icon-view"
