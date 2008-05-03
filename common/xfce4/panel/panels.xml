@@ -8,7 +8,7 @@
 			<property name="screen-position" value="11"/>
 			<property name="fullwidth" value="1"/>
 			<property name="xoffset" value="0"/>
-			<property name="yoffset" value="1174"/>
+			<property name="yoffset" value="1172"/>
 			<property name="handlestyle" value="0"/>
 			<property name="autohide" value="0"/>
 			<property name="transparency" value="20"/>
@@ -40,6 +40,8 @@
 		<items>
 			<item name="xfce4-menu" id="5"/>
 			<item name="separator" id="6"/>
+			<item name="places" id="12098538970"/>
+			<item name="separator" id="12098539201"/>
 			<item name="launcher" id="7"/>
 			<item name="launcher" id="8"/>
 			<item name="launcher" id="9"/>
@@ -47,7 +49,7 @@
 			<item name="launcher" id="11903833110"/>
 			<item name="separator" id="11"/>
 			<item name="separator" id="11903028011"/>
-			<item name="xfce4-mixer" id="12061139230"/>
+			<item name="separator" id="12098539332"/>
 			<item name="systray" id="11903027840"/>
 			<item name="clock" id="14"/>
 			<item name="separator" id="13"/>
