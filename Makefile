@@ -3,7 +3,7 @@ PACKAGE = mandriva-xfce-config
 VERSION = `date +%Y%m%d`
 
 prefix=$(prefix)
-xfceconfdir=$(sysconfdir)/X11/xdg
+xfceconfdir=$(sysconfdir)
 xfceprofdir=$(localstatedir)/mandriva/xfce-profiles
 
 install:
