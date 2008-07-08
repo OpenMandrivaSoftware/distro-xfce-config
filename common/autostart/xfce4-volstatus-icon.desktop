@@ -8,4 +8,4 @@ Exec=xfce4-volstatus-icon
 StartupNotify=false
 Terminal=false
 Hidden=false
-
+OnlyShowIn=XFCE;
