@@ -2,3 +2,4 @@
 BindingBackspace=TERMINAL_ERASE_BINDING_ASCII_DELETE
 BindingDelete=TERMINAL_ERASE_BINDING_DELETE_SEQUENCE
 ShortcutsNoMenukey=TRUE
+FontName=Monospace 14
