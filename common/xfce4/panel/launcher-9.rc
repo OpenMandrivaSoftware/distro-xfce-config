@@ -70,5 +70,5 @@ Comment[uk]=Робота з файлами та теками
 Comment[vi]=Quản lý tập tin và thư mục
 Comment[zh_CN]=管理文件及文件夹
 Comment[zh_TW]=管理檔案及資料夾
-X-XFCE-IconCategory=2
+Icon=/usr/share/icons/hicolor/scalable/apps/Thunar.svg
 
