@@ -28,6 +28,10 @@ EOF
 	    if [ ! -e $USER_DESKTOP/upgrade.desktop ]; then
 		cp -f /usr/share/mdk/desktop/one/upgrade.desktop $USER_DESKTOP
 	    fi
+	    
+	    if [ ! -e $USER_DESKTOP/mandriva-draklive-install.desktop ]; then
+		cp -f /usr/share/applications/mandriva-draklive-install.desktop $USER_DESKTOP
+	    fi
 
 	    xfdesktop --reload
 	    exit || 0
@@ -36,7 +40,11 @@ EOF
 	    if [ ! -e $USER_DESKTOP/register.desktop ]; then
 		cp -f /usr/share/mdk/desktop/powerpack/register.desktop $USER_DESKTOP
 	    fi
-
+	    
+	    if [ ! -e $USER_DESKTOP/mandriva-draklive-install.desktop ]; then
+		cp -f /usr/share/applications/mandriva-draklive-install.desktop $USER_DESKTOP
+	    fi
+	    
 	    xfdesktop --reload
 	    exit || 0
 	fi
