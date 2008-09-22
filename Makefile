@@ -27,6 +27,7 @@ install:
 	install -m 644 common/xfce4/volstatus/* $(DESTDIR)$(xfceconfdir)/xfce4/volstatus/
 	install -m 644 common/xfce4/*.rc $(DESTDIR)$(xfceconfdir)/xfce4
 	install -m 644 common/xfce4/*.xrdb $(DESTDIR)$(xfceconfdir)/xfce4
+	install -m 755 tools/xfce4-update-tool $(DESTDIR)$(prefix)/bin
 
 	-install -d $(DESTDIR)$(xfceprofdir)
 	-install -d $(DESTDIR)$(xfceprofdir)/Flash/xfce4/mcs_settings
