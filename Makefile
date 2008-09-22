@@ -2,7 +2,7 @@
 PACKAGE = mandriva-xfce-config
 VERSION = `date +%Y%m%d`
 
-prefix=$(prefix)
+PREFIX=$(prefix)
 xfceconfdir=$(sysconfdir)
 xfceprofdir=$(localstatedir)/mandriva/xfce-profiles
 
@@ -20,6 +20,7 @@ install:
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/panel
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/theme
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/volstatus
+	-install -d $(DESTDIR)$(PREFIX)/bin
 	install -m 644 common/xfce4/desktop/* $(DESTDIR)$(xfceconfdir)/xfce4/desktop/
 	install -m 644 common/xfce4/notication-daemon-xfce/* $(DESTDIR)$(xfceconfdir)/xfce4/notication-daemon-xfce/
 	install -m 644 common/xfce4/panel/* $(DESTDIR)$(xfceconfdir)/xfce4/panel/
@@ -27,7 +28,7 @@ install:
 	install -m 644 common/xfce4/volstatus/* $(DESTDIR)$(xfceconfdir)/xfce4/volstatus/
 	install -m 644 common/xfce4/*.rc $(DESTDIR)$(xfceconfdir)/xfce4
 	install -m 644 common/xfce4/*.xrdb $(DESTDIR)$(xfceconfdir)/xfce4
-	install -m 755 tools/xfce4-update-tool $(DESTDIR)$(prefix)/bin
+	install -m 755 tools/xfce4-update-config $(DESTDIR)$(PREFIX)/bin
 
 	-install -d $(DESTDIR)$(xfceprofdir)
 	-install -d $(DESTDIR)$(xfceprofdir)/Flash/xfce4/mcs_settings
