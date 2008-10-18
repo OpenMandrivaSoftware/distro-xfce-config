@@ -1,6 +1,6 @@
 [Entry 0]
-Name=MCS
-Comment=MCS
+Name=MCC
+Comment=MCC
 Icon=/usr/share/icons/Tango/scalable/apps/drakconf.svg
 Exec=/usr/bin/mcc
 Terminal=false
