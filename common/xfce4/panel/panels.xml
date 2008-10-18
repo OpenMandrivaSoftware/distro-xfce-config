@@ -25,6 +25,7 @@
 			<item name="launcher" id="12"/>
 			<item name="separator" id="11"/>
 			<item name="separator" id="6"/>
+			<item name="xfce4-mixer-plugin" id="1"/>
 			<item name="systray" id="4"/>
 			<item name="clock" id="14"/>
 			<item name="actions" id="12"/>
