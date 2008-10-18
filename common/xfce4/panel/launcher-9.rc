@@ -1,0 +1,12 @@
+[Global]
+MoveFirst=false
+ArrowPosition=0
+
+[Entry 0]
+Name=Menadżer plików
+Comment=Zarządzaj plikami i katalogami
+Icon=Thunar
+Exec=thunar
+Terminal=false
+StartupNotify=true
+

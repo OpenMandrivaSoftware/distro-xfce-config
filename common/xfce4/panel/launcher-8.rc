@@ -1,0 +1,12 @@
+[Global]
+MoveFirst=false
+ArrowPosition=0
+
+[Entry 0]
+Name=Edytor
+Comment=Edytuj pliki tekstowe
+Icon=accessories-text-editor
+Exec=mousepad
+Terminal=false
+StartupNotify=true
+

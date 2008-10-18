@@ -1,0 +1,12 @@
+[Global]
+MoveFirst=false
+ArrowPosition=0
+
+[Entry 0]
+Name=Przeglądarka
+Comment=Przeglądaj Internet
+Icon=web-browser
+Exec=exo-open --launch WebBrowser
+Terminal=false
+StartupNotify=false
+

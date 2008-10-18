@@ -1,0 +1,12 @@
+[Entry 0]
+Name=MCS
+Comment=MCS
+Icon=/usr/share/icons/Tango/scalable/apps/drakconf.svg
+Exec=/usr/bin/mcc
+Terminal=false
+StartupNotify=true
+
+[Global]
+MoveFirst=false
+ArrowPosition=0
+
