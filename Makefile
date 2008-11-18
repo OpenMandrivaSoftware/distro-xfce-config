@@ -20,7 +20,6 @@ install:
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/theme
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/volstatus
 	-install -d $(DESTDIR)$(PREFIX)/bin
-	install -m 644 common/xfce4/desktop/* $(DESTDIR)$(xfceconfdir)/xfce4/desktop/
 	install -m 644 common/xfce4/panel/* $(DESTDIR)$(xfceconfdir)/xfce4/panel/
 	install -m 644 common/xfce4/theme/* $(DESTDIR)$(xfceconfdir)/xfce4/theme/
 	install -m 644 common/xfce4/volstatus/* $(DESTDIR)$(xfceconfdir)/xfce4/volstatus/
