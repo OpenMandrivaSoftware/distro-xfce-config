@@ -16,13 +16,11 @@ install:
 	install -m 644 common/autostart/* $(DESTDIR)$(xfceconfdir)/autostart/
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/desktop
-	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/notication-daemon-xfce
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/panel
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/theme
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/volstatus
 	-install -d $(DESTDIR)$(PREFIX)/bin
 	install -m 644 common/xfce4/desktop/* $(DESTDIR)$(xfceconfdir)/xfce4/desktop/
-	install -m 644 common/xfce4/notication-daemon-xfce/* $(DESTDIR)$(xfceconfdir)/xfce4/notication-daemon-xfce/
 	install -m 644 common/xfce4/panel/* $(DESTDIR)$(xfceconfdir)/xfce4/panel/
 	install -m 644 common/xfce4/theme/* $(DESTDIR)$(xfceconfdir)/xfce4/theme/
 	install -m 644 common/xfce4/volstatus/* $(DESTDIR)$(xfceconfdir)/xfce4/volstatus/
@@ -31,17 +29,17 @@ install:
 	install -m 755 tools/xfce4-update-config $(DESTDIR)$(PREFIX)/bin
 
 	-install -d $(DESTDIR)$(xfceprofdir)
-	-install -d $(DESTDIR)$(xfceprofdir)/Flash/xfce4/mcs_settings
-	install -m 644 Flash/xfce4/mcs_settings/*.xml $(DESTDIR)$(xfceprofdir)/Flash/xfce4/mcs_settings/
+	-install -d $(DESTDIR)$(xfceprofdir)/Flash/xfce4/xfconf/
+	install -m 644 Flash/xfce4/xfconf/xfce-perchannel-xml/*.xml $(DESTDIR)$(xfceprofdir)/Flash/xfce4/xfconf/xfce-perchannel-xml
 
-	-install -d $(DESTDIR)$(xfceprofdir)/Free/xfce4/mcs_settings
-	install -m 644 Free/xfce4/mcs_settings/*.xml $(DESTDIR)$(xfceprofdir)/Free/xfce4/mcs_settings/
+	-install -d $(DESTDIR)$(xfceprofdir)/Free/xfce4/xfconf/xfce-perchannel-xml/
+	install -m 644 Free/xfce4/xfconf/xfce-perchannel-xml/*.xml $(DESTDIR)$(xfceprofdir)/Free/xfce4/xfconf/xfce-perchannel-xml
 
-	-install -d $(DESTDIR)$(xfceprofdir)/One/xfce4/mcs_settings
-	install -m 644 One/xfce4/mcs_settings/*.xml $(DESTDIR)$(xfceprofdir)/One/xfce4/mcs_settings/
+	-install -d $(DESTDIR)$(xfceprofdir)/One/xfce4/xfconf/xfce-perchannel-xml/
+	install -m 644 One/xfce4/xfconf/xfce-perchannel-xml/*.xml $(DESTDIR)$(xfceprofdir)/One/xfce4/xfconf/xfce-perchannel-xml
 
-	-install -d $(DESTDIR)$(xfceprofdir)/Powerpack/xfce4/mcs_settings
-	install -m 644 Powerpack/xfce4/mcs_settings/*.xml $(DESTDIR)$(xfceprofdir)/Powerpack/xfce4/mcs_settings/
+	-install -d $(DESTDIR)$(xfceprofdir)/Powerpack/xfce4/xfconf/xfce-perchannel-xml/
+	install -m 644 Powerpack/xfce4/xfconf/xfce-perchannel-xml/*.xml $(DESTDIR)$(xfceprofdir)/Powerpack/xfce4/xfconf/xfce-perchannel-xml
 
 cleandist:
 	rm -rf $(PACKAGE)-$(VERSION) $(PACKAGE)-$(VERSION).tar.bz2
