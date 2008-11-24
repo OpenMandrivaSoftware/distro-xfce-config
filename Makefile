@@ -19,26 +19,29 @@ install:
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/panel
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/theme
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/volstatus
+	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/xfconf/xfce-perchannel-xml
 	-install -d $(DESTDIR)$(PREFIX)/bin
 	install -m 644 common/xfce4/panel/* $(DESTDIR)$(xfceconfdir)/xfce4/panel/
 	install -m 644 common/xfce4/theme/* $(DESTDIR)$(xfceconfdir)/xfce4/theme/
 	install -m 644 common/xfce4/volstatus/* $(DESTDIR)$(xfceconfdir)/xfce4/volstatus/
+	install -m 644 common/xfce4/xfconf/xfce-perchannel-xml/* $(DESTDIR)$(xfceconfdir)/xfce4/xfconf/xfce-perchannel-xml/
 	install -m 644 common/xfce4/*.rc $(DESTDIR)$(xfceconfdir)/xfce4
 	install -m 644 common/xfce4/*.xrdb $(DESTDIR)$(xfceconfdir)/xfce4
 	install -m 755 tools/xfce4-update-config $(DESTDIR)$(PREFIX)/bin
 
 	-install -d $(DESTDIR)$(xfceprofdir)
-	-install -d $(DESTDIR)$(xfceprofdir)/Flash/xfce4/xfconf/
-	install -m 644 Flash/xfce4/xfconf/xfce-perchannel-xml/*.xml $(DESTDIR)$(xfceprofdir)/Flash/xfce4/xfconf/xfce-perchannel-xml
+	-install -d $(DESTDIR)$(xfceprofdir)/Flash/xfce4/xfconf/xfce-perchannel-xml
+	
+	install -m 644 Flash/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml $(DESTDIR)$(xfceprofdir)/Flash/xfce4/xfconf/xfce-perchannel-xml
 
 	-install -d $(DESTDIR)$(xfceprofdir)/Free/xfce4/xfconf/xfce-perchannel-xml/
-	install -m 644 Free/xfce4/xfconf/xfce-perchannel-xml/*.xml $(DESTDIR)$(xfceprofdir)/Free/xfce4/xfconf/xfce-perchannel-xml
+	install -m 644 Free/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml $(DESTDIR)$(xfceprofdir)/Free/xfce4/xfconf/xfce-perchannel-xml
 
 	-install -d $(DESTDIR)$(xfceprofdir)/One/xfce4/xfconf/xfce-perchannel-xml/
-	install -m 644 One/xfce4/xfconf/xfce-perchannel-xml/*.xml $(DESTDIR)$(xfceprofdir)/One/xfce4/xfconf/xfce-perchannel-xml
+	install -m 644 One/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml $(DESTDIR)$(xfceprofdir)/One/xfce4/xfconf/xfce-perchannel-xml
 
 	-install -d $(DESTDIR)$(xfceprofdir)/Powerpack/xfce4/xfconf/xfce-perchannel-xml/
-	install -m 644 Powerpack/xfce4/xfconf/xfce-perchannel-xml/*.xml $(DESTDIR)$(xfceprofdir)/Powerpack/xfce4/xfconf/xfce-perchannel-xml
+	install -m 644 Powerpack/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml $(DESTDIR)$(xfceprofdir)/Powerpack/xfce4/xfconf/xfce-perchannel-xml
 
 cleandist:
 	rm -rf $(PACKAGE)-$(VERSION) $(PACKAGE)-$(VERSION).tar.bz2
