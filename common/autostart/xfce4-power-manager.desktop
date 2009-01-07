@@ -8,3 +8,4 @@ Exec=xfce4-power-manager -r
 StartupNotify=false
 Terminal=false
 Hidden=false
+OnlyShowIn=XFCE;

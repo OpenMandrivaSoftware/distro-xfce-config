@@ -1,3 +1,7 @@
+2009-01-07  Götz Waschk  <waschk at mandriva.org>
+
+	* common/autostart/xfce4-power-manager.desktop: - only show in XFCE
+
 2008-11-24 20:25  Tomasz Paweł Gajc <tpg at mandriva.org>
 
 	* Makefile: - add more support for Xfce-6.4 xfconf settings
