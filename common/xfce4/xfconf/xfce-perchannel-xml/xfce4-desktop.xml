@@ -7,7 +7,6 @@
         <property name="image-path" type="string" value="/usr/share/mdk/backgrounds/default.jpg"/>
         <property name="last-image" type="empty"/>
         <property name="last-single-image" type="empty"/>
-        <property name="last-image-list" type="string" value="/home/gosc/.config/xfce4/desktop/backdrop.list"/>
         <property name="image-show" type="bool" value="true"/>
         <property name="brightness" type="int" value="0"/>
         <property name="saturation" type="double" value="1.000000"/>
