@@ -1,3 +1,4 @@
-MailReader=sylpheed-claws
 WebBrowser=firefox
+MailReader=sylpheed-claws
 TerminalEmulator=Terminal
+
