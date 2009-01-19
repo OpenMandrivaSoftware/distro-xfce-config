@@ -1,3 +1,25 @@
+2009-01-19 14:54  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/Thunar/thunarrc,
+	  common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/pointers.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: - fix
+	  xfce4-session.xml file, xfce should start fine
+	  - add config files for xfce4-appfinder.xml
+	  - tune up Thunar windw apperance, use compact view as default
+	  - use evdev as a default driver for keyboard
+	  - add more xfwm4 settings
+	  - tune up keyboard shortcuts, should be working again
+
 2009-01-11 16:20  Tomasz Paweł Gajc <tpg at mandriva.org>
 
 	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml: -
