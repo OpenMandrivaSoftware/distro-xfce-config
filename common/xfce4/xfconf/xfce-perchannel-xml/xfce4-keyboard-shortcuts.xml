@@ -7,10 +7,10 @@
       <property name="&lt;Control&gt;&lt;Alt&gt;Delete" type="empty"/>
     </property>
     <property name="custom" type="empty">
-      <property name="&lt;Alt&gt;F2" type="string" value="xfrun4"/>
-      <property name="&lt;Control&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Control&gt;Escape" type="string" value="/usr/bin/xfce4-taskmanager"/>
+      <property name="&lt;Control&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
+      <property name="&lt;Alt&gt;F2" type="string" value="xfrun4"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
@@ -68,6 +68,7 @@
       <property name="&lt;Control&gt;F12" type="empty"/>
     </property>
     <property name="custom" type="empty">
+      <property name="override" type="bool" value="true"/>
       <property name="&lt;Control&gt;F8" type="string" value="workspace_8_key"/>
       <property name="&lt;Control&gt;F10" type="string" value="workspace_10_key"/>
       <property name="&lt;Control&gt;F11" type="string" value="workspace_11_key"/>
@@ -119,11 +120,10 @@
       <property name="&lt;Alt&gt;Insert" type="string" value="add_workspace_key"/>
       <property name="&lt;Control&gt;F6" type="string" value="workspace_6_key"/>
       <property name="&lt;Control&gt;F4" type="string" value="workspace_4_key"/>
-      <property name="override" type="bool" value="true"/>
     </property>
   </property>
   <property name="providers" type="array">
-    <value type="string" value="xfwm4"/>
     <value type="string" value="commands"/>
+    <value type="string" value="xfwm4"/>
   </property>
 </channel>

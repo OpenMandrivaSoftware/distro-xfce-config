@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <channel name="accessibility" version="1.0">
-  <property name="StickyKeys" type="bool" value="false"/>
-  <property name="SlowKeys" type="bool" value="false"/>
-  <property name="BounceKeys" type="bool" value="false"/>
+  <property name="StickyKeys" type="bool" value="false">
+    <property name="LatchToLock" type="bool" value="false"/>
+    <property name="TwoKeysDisable" type="bool" value="false"/>
+  </property>
+  <property name="SlowKeys" type="bool" value="false">
+    <property name="Delay" type="int" value="500"/>
+  </property>
+  <property name="BounceKeys" type="bool" value="false">
+    <property name="Delay" type="int" value="500"/>
+  </property>
   <property name="MouseKeys" type="bool" value="false"/>
 </channel>
