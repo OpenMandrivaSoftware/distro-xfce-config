@@ -8,8 +8,10 @@
         <property name="last-image" type="string" value="/usr/share/mdk/backgrounds/default.jpg"/>
         <property name="last-single-image" type="string" value="/usr/share/mdk/backgrounds/default.jpg"/>
         <property name="image-show" type="empty"/>
-        <property name="brightness" type="empty"/>
-        <property name="saturation" type="empty"/>
+        <property name="brightness" type="int" value="0"/>
+        <property name="saturation" type="double" value="1.000000"/>
+        <property name="color-style" type="int" value="0"/>
+        <property name="image-style" type="int" value="4"/>
       </property>
     </property>
   </property>
@@ -23,7 +25,7 @@
       <property name="show-filesystem" type="bool" value="true"/>
       <property name="show-home" type="bool" value="true"/>
     </property>
-    <property name="icon-size" type="empty"/>
+    <property name="icon-size" type="uint" value="36"/>
   </property>
   <property name="windowlist-menu" type="empty">
     <property name="show-submenus" type="bool" value="false"/>
