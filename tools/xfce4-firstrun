@@ -2,10 +2,10 @@
 
 MDV_FLAVOUR=`echo $META_CLASS`
 USER_DESKTOP=`xdg-user-dir DESKTOP`
-DESKTOP_FILE=$HOME/.config/autostart/xfce4-update-config.desktop
+DESKTOP_FILE=$HOME/.config/autostart/xfce4-firstrun.desktop
 
 if [ `whoami` = "root" ]; then
-    echo "Not supported for root user"
+    echo "Not supported for superuser"
     exit || 0
 else
     if [ ! -e $DESKTOP_FILE ]; then
@@ -14,7 +14,7 @@ else
 	mkdir -p $HOME/.config/autostart
 	fi
 
-cat > $HOME/.config/autostart/xfce4-update-config.desktop << EOF
+cat > $HOME/.config/autostart/xfce4-firstrun.desktop << EOF
 [Desktop Entry]
 Hidden=true
 EOF

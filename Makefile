@@ -27,7 +27,7 @@ install:
 	install -m 644 common/xfce4/xfconf/xfce-perchannel-xml/* $(DESTDIR)$(xfceconfdir)/xfce4/xfconf/xfce-perchannel-xml/
 	install -m 644 common/xfce4/*.rc $(DESTDIR)$(xfceconfdir)/xfce4
 	install -m 644 common/xfce4/*.xrdb $(DESTDIR)$(xfceconfdir)/xfce4
-	install -m 755 tools/xfce4-update-config $(DESTDIR)$(PREFIX)/bin
+	install -m 755 tools/xfce4-firstrun $(DESTDIR)$(PREFIX)/bin
 
 	-install -d $(DESTDIR)$(xfceprofdir)
 	-install -d $(DESTDIR)$(xfceprofdir)/Flash/xfce4/xfconf/xfce-perchannel-xml
