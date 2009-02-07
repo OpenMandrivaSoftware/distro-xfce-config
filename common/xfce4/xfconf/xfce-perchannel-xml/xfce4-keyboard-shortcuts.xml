@@ -11,6 +11,7 @@
       <property name="&lt;Control&gt;Escape" type="string" value="/usr/bin/xfce4-taskmanager"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
       <property name="&lt;Alt&gt;F2" type="string" value="xfrun4"/>
+      <property name="Print" type="string" value="/usr/bin/xfce4-screenshooter -f -s $HOME"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
