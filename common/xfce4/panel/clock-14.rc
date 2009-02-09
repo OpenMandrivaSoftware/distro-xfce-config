@@ -1,5 +1,5 @@
 mode=2
-military=true
+military=false
 ampm=false
 secs=false
 show_frame=false
