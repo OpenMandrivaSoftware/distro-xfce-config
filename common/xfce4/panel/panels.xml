@@ -25,10 +25,11 @@
 			<item name="launcher" id="12"/>
 			<item name="separator" id="11"/>
 			<item name="separator" id="6"/>
-			<item name="xfce4-mixer-plugin" id="1"/>
+			<item name="xfce4-mixer-plugin" id="2"/>
 			<item name="systray" id="4"/>
 			<item name="clock" id="14"/>
-			<item name="actions" id="12"/>
+			<item name="xfswitch-plugin" id="15"/>
+			<item name="actions" id="16"/>
 		</items>
 	</panel>
 	<panel>
@@ -38,7 +39,7 @@
 			<property name="screen-position" value="11"/>
 			<property name="fullwidth" value="1"/>
 			<property name="xoffset" value="0"/>
-			<property name="yoffset" value="1166"/>
+			<property name="yoffset" value="1172"/>
 			<property name="handlestyle" value="0"/>
 			<property name="autohide" value="0"/>
 			<property name="transparency" value="20"/>
