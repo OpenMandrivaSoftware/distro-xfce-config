@@ -1,3 +1,8 @@
+2009-02-15 05:40  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
+	  - add support for volume keys (mvbz #47218)
+
 2009-02-11 16:32  Tomasz Paweł Gajc <tpg at mandriva.org>
 
 	* common/xfce4/panel/actions-16.rc, common/xfce4/panel/clock-14.rc:
