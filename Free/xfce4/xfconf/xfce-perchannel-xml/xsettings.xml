@@ -7,7 +7,7 @@
     <property name="DndDragThreshold" type="int" value="8"/>
     <property name="CursorBlink" type="bool" value="true"/>
     <property name="CursorBlinkTime" type="int" value="1200"/>
-    <property name="ThemeName" type="string" value="Ia Ora Smooth"/>
+    <property name="ThemeName" type="string" value="Ia Ora Steel"/>
     <property name="IconThemeName" type="string" value="Tango"/>
     <property name="SoundThemeName" type="string" value="default"/>
     <property name="EnableEventSounds" type="bool" value="true"/>
