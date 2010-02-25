@@ -1,15 +1,18 @@
 #!/bin/sh
+# Simple script which configure Xfce environment for a fresh user
+# Author: tpg@mandriva.org
+# Licensed under GPL terms
 
 MDV_FLAVOUR=`echo $META_CLASS`
 USER_DESKTOP=`xdg-user-dir DESKTOP`
 DESKTOP_FILE=$HOME/.config/autostart/xfce4-firstrun.desktop
 
 if [ `whoami` = "root" ]; then
-    echo "Not supported for superuser"
+    echo "xfce4-firstrun: not supported for superuser."
     exit || 0
 else
     if [ ! -e $DESKTOP_FILE ]; then
-	echo "Localised desktop folder exists."
+	echo "xfce4-firstrun: localised desktop folder exists."
 	if [ ! -d $HOME/.config/autostart ]; then
 	mkdir -p $HOME/.config/autostart
 	fi
@@ -32,8 +35,9 @@ EOF
 	    if [ ! -e $USER_DESKTOP/mandriva-draklive-install.desktop ]; then
 		cp -f /usr/share/applications/mandriva-draklive-install.desktop $USER_DESKTOP 2> /dev/null
 	    fi
-
-	    xfdesktop --reload
+		if [ "$(pidof xfdesktop)" ]; then 
+		    xfdesktop --reload 1> /dev/null; echo "xfce4-firstrun: xfdesktop reloaded.";
+		fi
 	    exit || 0
 
 	else
@@ -44,11 +48,14 @@ EOF
 	    if [ ! -e $USER_DESKTOP/mandriva-draklive-install.desktop ]; then
 		cp -f /usr/share/applications/mandriva-draklive-install.desktop $USER_DESKTOP 2> /dev/null
 	    fi
-
-	    xfdesktop --reload
+		if [ "$(pidof xfdesktop)" ]; then 
+		    xfdesktop --reload 1> /dev/null; echo "xfce4-firstrun: xfdesktop reloaded.";
+		fi
 	    exit || 0
 	fi
+    else echo "xfce4-firstrun: make sure you have installed xdg-user-dirs-gtk and xdg-user-dir packages."
     fi
+
 fi
 
 #EOF
