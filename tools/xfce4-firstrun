@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 MDV_FLAVOUR=`echo $META_CLASS`
 USER_DESKTOP=`xdg-user-dir DESKTOP`
@@ -22,15 +22,15 @@ EOF
 
 	if [ $MDV_FLAVOUR = "download" -o $MDV_FLAVOUR = "desktop" ]; then
 	    if [ ! -e $USER_DESKTOP/register.desktop ]; then
-		cp -f /usr/share/mdk/desktop/free/register.desktop $USER_DESKTOP
+		cp -f /usr/share/mdk/desktop/free/register.desktop $USER_DESKTOP 2> /dev/null
 	    fi
 
 	    if [ ! -e $USER_DESKTOP/upgrade.desktop ]; then
-		cp -f /usr/share/mdk/desktop/one/upgrade.desktop $USER_DESKTOP
+		cp -f /usr/share/mdk/desktop/one/upgrade.desktop $USER_DESKTOP 2> /dev/null
 	    fi
-	    
+
 	    if [ ! -e $USER_DESKTOP/mandriva-draklive-install.desktop ]; then
-		cp -f /usr/share/applications/mandriva-draklive-install.desktop $USER_DESKTOP
+		cp -f /usr/share/applications/mandriva-draklive-install.desktop $USER_DESKTOP 2> /dev/null
 	    fi
 
 	    xfdesktop --reload
@@ -38,13 +38,13 @@ EOF
 
 	else
 	    if [ ! -e $USER_DESKTOP/register.desktop ]; then
-		cp -f /usr/share/mdk/desktop/powerpack/register.desktop $USER_DESKTOP
+		cp -f /usr/share/mdk/desktop/powerpack/register.desktop $USER_DESKTOP 2> /dev/null
 	    fi
-	    
+
 	    if [ ! -e $USER_DESKTOP/mandriva-draklive-install.desktop ]; then
-		cp -f /usr/share/applications/mandriva-draklive-install.desktop $USER_DESKTOP
+		cp -f /usr/share/applications/mandriva-draklive-install.desktop $USER_DESKTOP 2> /dev/null
 	    fi
-	    
+
 	    xfdesktop --reload
 	    exit || 0
 	fi
