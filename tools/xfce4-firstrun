@@ -55,7 +55,6 @@ EOF
 	fi
     else echo "xfce4-firstrun: make sure you have installed xdg-user-dirs-gtk and xdg-user-dir packages."
     fi
-
 fi
 
 #EOF
