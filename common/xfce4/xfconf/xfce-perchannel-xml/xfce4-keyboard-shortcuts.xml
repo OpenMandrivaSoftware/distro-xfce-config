@@ -11,7 +11,7 @@
       <property name="&lt;Control&gt;Escape" type="string" value="/usr/bin/xfce4-taskmanager"/>
       <property name="&lt;Control&gt;&lt;Alt&gt;Delete" type="string" value="xflock4"/>
       <property name="&lt;Alt&gt;F2" type="string" value="xfrun4"/>
-      <property name="Print" type="string" value="/usr/bin/xfce4-screenshooter -f -s $HOME"/>
+      <property name="Print" type="string" value="/usr/bin/xfce4-screenshooter -f"/>
       <property name="XF86AudioRaiseVolume" type="string" value="amixer set Master 10%+"/>
       <property name="XF86AudioLowerVolume" type="string" value="amixer set Master 10%-"/>
       <property name="XF86AudioMute" type="string" value="amixer set Master toggle"/>
