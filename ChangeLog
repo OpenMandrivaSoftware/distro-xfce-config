@@ -1,3 +1,98 @@
+2010-02-25 14:32  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* tools/xfce4-firstrun:
+	  SILENT
+	  delete
+	  it
+
+2010-02-25 14:30  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* tools/xfce4-firstrun:
+	  -
+	  xfce4-firstrun: o
+	  add
+	  checks
+	  for
+	  running
+	  xfdesktop o
+	  add
+	  some
+	  verbose
+	  messages o
+	  add
+	  header
+
+2010-02-25 13:51  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* tools/xfce4-firstrun:
+	  -
+	  silence
+	  the
+	  output
+	  of
+	  cp
+
+2010-02-25 13:38  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
+	  -
+	  fix
+	  xfce4-screnshooter
+	  syntax -
+	  fix
+	  /KeyRepeat/Delay
+	  xfconf
+	  key
+
+2009-10-23 22:23  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* Free/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
+	  -
+	  use
+	  Ia
+	  Ora
+	  Steel
+	  as
+	  a
+	  default
+	  theme
+	  for
+	  Free
+	  flavour
+
+2009-04-07 17:41  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml:
+	  -
+	  update
+	  settings
+	  for
+	  new
+	  xfce4-power-manager
+
+2009-03-26 17:53  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  26_Mar
+
+2009-03-26 17:47  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/Thunar/thunarrc:
+	  -
+	  adjust
+	  window
+	  size
+	  and
+	  separator
+	  places
+	  for
+	  Thunar
+
 2009-03-26 17:47  Tomasz Paweł Gajc <tpg at mandriva.org>
 
 	* common/Thunar/thunarrc: - adjust window size and separator places
