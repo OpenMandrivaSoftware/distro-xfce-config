@@ -1,3 +1,69 @@
+2010-02-27 21:29  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml:
+	  -
+	  always
+	  show
+	  xfce4-power-manager
+	  in
+	  tray
+
+2010-02-25 14:32  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  25_Feb
+
+2010-02-25 14:32  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* tools/xfce4-firstrun:
+	  SILENT
+	  delete
+	  it
+
+2010-02-25 14:30  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* tools/xfce4-firstrun:
+	  -
+	  xfce4-firstrun: o
+	  add
+	  checks
+	  for
+	  running
+	  xfdesktop o
+	  add
+	  some
+	  verbose
+	  messages o
+	  add
+	  header
+
+2010-02-25 13:51  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* tools/xfce4-firstrun:
+	  -
+	  silence
+	  the
+	  output
+	  of
+	  cp
+
+2010-02-25 13:38  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
+	  -
+	  fix
+	  xfce4-screnshooter
+	  syntax -
+	  fix
+	  /KeyRepeat/Delay
+	  xfconf
+	  key
+
 2010-02-25 14:32  Tomasz Paweł Gajc <tpg at mandriva.org>
 
 	* tools/xfce4-firstrun:
