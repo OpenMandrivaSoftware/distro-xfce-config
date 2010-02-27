@@ -3,7 +3,7 @@
 <channel name="xfce4-power-manager" version="1.0">
   <property name="xfce4-power-manager" type="empty">
     <property name="cpu-scaling-gov" type="empty"/>
-    <property name="show-tray-icon" type="uint" value="1"/>
+    <property name="show-tray-icon" type="uint" value="0"/>
     <property name="dpms-enabled" type="bool" value="true"/>
     <property name="on-ac-monitor-dpms-timeouts" type="empty"/>
     <property name="sleep-switch-action" type="string" value="Suspend"/>
