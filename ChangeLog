@@ -1,3 +1,22 @@
+2010-02-27 21:30  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  27_Feb
+
+2010-02-27 21:29  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml:
+	  -
+	  always
+	  show
+	  xfce4-power-manager
+	  in
+	  tray
+
 2010-02-27 21:29  Tomasz Paweł Gajc <tpg at mandriva.org>
 
 	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml:
