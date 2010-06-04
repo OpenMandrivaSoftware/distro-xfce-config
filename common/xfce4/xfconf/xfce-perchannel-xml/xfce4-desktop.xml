@@ -11,7 +11,7 @@
         <property name="brightness" type="int" value="0"/>
         <property name="saturation" type="double" value="1.000000"/>
         <property name="color-style" type="int" value="0"/>
-        <property name="image-style" type="int" value="4"/>
+        <property name="image-style" type="int" value="0"/>
       </property>
     </property>
   </property>
