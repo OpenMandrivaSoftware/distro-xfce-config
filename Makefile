@@ -1,4 +1,4 @@
-# tpg@mandriva.org
+# Author: tpg@mandriva.org
 PACKAGE = mandriva-xfce-config
 VERSION = `date +%Y%m%d`
 
@@ -20,15 +20,12 @@ install:
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/desktop
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/panel
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/theme
-	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/volstatus
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/xfconf/xfce-perchannel-xml
 	-install -d $(DESTDIR)$(PREFIX)/bin
 	install -m 644 common/xfce4/panel/* $(DESTDIR)$(xfceconfdir)/xfce4/panel/
 	install -m 644 common/xfce4/theme/* $(DESTDIR)$(xfceconfdir)/xfce4/theme/
-	install -m 644 common/xfce4/volstatus/* $(DESTDIR)$(xfceconfdir)/xfce4/volstatus/
 	install -m 644 common/xfce4/xfconf/xfce-perchannel-xml/* $(DESTDIR)$(xfceconfdir)/xfce4/xfconf/xfce-perchannel-xml/
 	install -m 644 common/xfce4/*.rc $(DESTDIR)$(xfceconfdir)/xfce4
-	install -m 644 common/xfce4/*.xrdb $(DESTDIR)$(xfceconfdir)/xfce4
 	install -m 755 tools/xfce4-firstrun $(DESTDIR)$(PREFIX)/bin
 
 	-install -d $(DESTDIR)$(xfceprofdir)
