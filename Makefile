@@ -20,7 +20,7 @@ install:
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/theme
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/xfconf/xfce-perchannel-xml
 	-install -d $(DESTDIR)$(PREFIX)/bin
-	install -m 644 common/xfce4/panel/* $(DESTDIR)$(xfceconfdir)/xfce4/panel/
+	cp -fr common/xfce4/panel/* $(DESTDIR)$(xfceconfdir)/xfce4/panel/
 	install -m 644 common/xfce4/theme/* $(DESTDIR)$(xfceconfdir)/xfce4/theme/
 	install -m 644 common/xfce4/xfconf/xfce-perchannel-xml/* $(DESTDIR)$(xfceconfdir)/xfce4/xfconf/xfce-perchannel-xml/
 	install -m 644 common/xfce4/*.rc $(DESTDIR)$(xfceconfdir)/xfce4
