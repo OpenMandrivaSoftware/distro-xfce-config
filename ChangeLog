@@ -1,3 +1,229 @@
+2011-07-30 18:40  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
+	  -
+	  add
+	  corrent
+	  session
+	  configuration
+	  file
+
+2011-07-30 14:40  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  30_Jul
+
+2011-07-30 14:40  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml:
+	  -
+	  fix
+	  workspaces
+	  plugin
+
+2011-07-30 14:29  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  30_Jul
+
+2011-07-30 14:28  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* Makefile:
+	  -
+	  copy
+	  panel
+	  files
+
+2011-07-30 14:12  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  30_Jul
+
+2011-07-30 14:11  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/Xcursor.xrdb,
+	  common/xfce4/Xft.xrdb,
+	  common/xfce4/panel/cpugraph-3.rc,
+	  common/xfce4/panel/launcher-12,
+	  common/xfce4/panel/launcher-12/13120284674.desktop,
+	  common/xfce4/panel/launcher-13,
+	  common/xfce4/panel/launcher-13/13120284081.desktop,
+	  common/xfce4/panel/launcher-14,
+	  common/xfce4/panel/launcher-14/13120284825.desktop,
+	  common/xfce4/panel/launcher-15,
+	  common/xfce4/panel/launcher-15/13120284463.desktop,
+	  common/xfce4/panel/launcher-16,
+	  common/xfce4/panel/launcher-16/13120285428.desktop,
+	  common/xfce4/panel/launcher-17,
+	  common/xfce4/panel/launcher-17/13120285297.desktop,
+	  common/xfce4/panel/weather-4.rc,
+	  common/xfce4/panel/xfce4-orageclock-plugin-18.rc,
+	  common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/thunar-volman.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
+	  -
+	  add
+	  panel
+	  activators -
+	  add
+	  xfconf
+	  settings
+
+2011-07-30 14:06  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/pointers.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
+	  -
+	  delete
+	  old
+	  panel
+	  files
+
+2011-07-30 14:05  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/theme/gtkrc:
+	  -
+	  delete
+	  old
+	  gtkrc
+	  file
+
+2011-07-30 14:05  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/panel/actions-12.rc,
+	  common/xfce4/panel/actions-16.rc,
+	  common/xfce4/panel/clock-14.rc,
+	  common/xfce4/panel/launcher-10.rc,
+	  common/xfce4/panel/launcher-12.rc,
+	  common/xfce4/panel/launcher-7.rc,
+	  common/xfce4/panel/launcher-8.rc,
+	  common/xfce4/panel/launcher-9.rc,
+	  common/xfce4/panel/pager-2.rc,
+	  common/xfce4/panel/panels.xml,
+	  common/xfce4/panel/places-1.rc,
+	  common/xfce4/panel/separator-11.rc,
+	  common/xfce4/panel/separator-13.rc,
+	  common/xfce4/panel/separator-6.rc,
+	  common/xfce4/panel/systray-4.rc,
+	  common/xfce4/panel/tasklist-3.rc,
+	  common/xfce4/panel/windowlist-1.rc,
+	  common/xfce4/panel/xfce4-menu-5.rc,
+	  common/xfce4/panel/xfce4-mixer-plugin-2.rc:
+	  -
+	  delete
+	  old
+	  panel
+	  configuration
+
+2011-07-30 14:04  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/autostart/xfce4-tips-autostart.desktop,
+	  common/autostart/xfce4-volstatus-icon.desktop:
+	  -
+	  delete
+	  old
+	  files
+
+2011-07-30 14:04  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/Thunar/accels.scm,
+	  common/Thunar/uca.xml,
+	  common/Thunar/volmanrc:
+	  -
+	  delete
+	  old
+	  files
+
+2011-07-30 13:42  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
+	  -
+	  enable
+	  more
+	  workspaces
+
+2011-07-30 13:24  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* Makefile:
+	  -
+	  drop
+	  menus
+
+2011-07-30 13:16  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  30_Jul
+
+2011-07-30 13:15  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* Flash/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
+	  Free/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
+	  Makefile,
+	  One/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
+	  Powerpack/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
+	  common/Terminal/terminalrc,
+	  common/Thunar/thunarrc,
+	  common/menus,
+	  common/xfce4/helpers.rc,
+	  common/xfce4/volstatus,
+	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
+	  -
+	  update
+	  configuration
+	  for
+	  Xfce-4.8
+	  (finally
+	  \o/
+	  )
+
 2011-07-30 14:40  Tomasz Paweł Gajc <tpg at mandriva.org>
 
 	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml:
