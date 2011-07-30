@@ -35,8 +35,8 @@
       <property name="size" type="empty"/>
       <property name="position-locked" type="empty"/>
       <property name="plugin-ids" type="array">
-        <value type="int" value="2"/>
         <value type="int" value="5"/>
+        <value type="int" value="2"/>
         <value type="int" value="6"/>
       </property>
       <property name="background-style" type="uint" value="2"/>
@@ -66,13 +66,14 @@
     </property>
     <property name="plugin-11" type="empty">
       <property name="names-visible" type="array">
+        <value type="string" value="task manager"/>
         <value type="string" value="orage"/>
+        <value type="string" value="gnome-settings-daemon"/>
         <value type="string" value="xfce4-power-manager"/>
         <value type="string" value="net_applet"/>
         <value type="string" value="mdkapplet"/>
         <value type="string" value="claws-mail"/>
-        <value type="string" value="task manager"/>
-        <value type="string" value="gnome-settings-daemon"/>
+        <value type="string" value="kerneloops-applet"/>
       </property>
     </property>
     <property name="plugin-7" type="empty">
@@ -114,7 +115,11 @@
     <property name="plugin-10" type="empty"/>
     <property name="plugin-8" type="empty"/>
     <property name="plugin-9" type="empty"/>
-    <property name="plugin-2" type="empty"/>
+    <property name="plugin-2" type="empty">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="true"/>
+      <property name="workspace-scrolling" type="bool" value="true"/>
+    </property>
     <property name="plugin-5" type="empty"/>
     <property name="plugin-3" type="string" value="cpugraph"/>
     <property name="plugin-18" type="string" value="xfce4-orageclock-plugin"/>
