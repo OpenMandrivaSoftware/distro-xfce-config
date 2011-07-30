@@ -1,9 +1,0 @@
-show_frame=1
-
-[Global]
-ShowFrame=false
-Rows=1
-
-[Applications]
-deluge=false
-
