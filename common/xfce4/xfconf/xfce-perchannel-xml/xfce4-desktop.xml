@@ -4,14 +4,15 @@
   <property name="backdrop" type="empty">
     <property name="screen0" type="empty">
       <property name="monitor0" type="empty">
-        <property name="image-path" type="empty"/>
-        <property name="last-image" type="empty"/>
-        <property name="last-single-image" type="empty"/>
+        <property name="image-path" type="string" value="/usr/share/mdk/backgrounds/default.jpg"/>
+        <property name="last-image" type="string" value="/usr/share/mdk/backgrounds/default.jpg"/>
+        <property name="last-single-image" type="string" value="/usr/share/mdk/backgrounds/default.jpg"/>
         <property name="image-show" type="empty"/>
         <property name="brightness" type="empty"/>
         <property name="saturation" type="empty"/>
         <property name="color-style" type="empty"/>
         <property name="image-style" type="empty"/>
+        <property name="last-image-list" type="string" value="/home/test/.config/xfce4/desktop/backdrop.list"/>
       </property>
     </property>
   </property>

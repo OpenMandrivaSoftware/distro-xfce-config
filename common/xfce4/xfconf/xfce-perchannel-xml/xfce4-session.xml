@@ -3,6 +3,9 @@
 <channel name="xfce4-session" version="1.0">
   <property name="general" type="empty">
     <property name="FailsafeSessionName" type="string" value="Failsafe"/>
+    <property name="AutoSave" type="bool" value="true"/>
+    <property name="SessionName" type="string" value="Default"/>
+    <property name="SaveOnExit" type="bool" value="true"/>
   </property>
   <property name="sessions" type="empty">
     <property name="Failsafe" type="empty">
@@ -33,5 +36,8 @@
   </property>
   <property name="splash" type="empty">
     <property name="Engine" type="string" value=""/>
+  </property>
+  <property name="compat" type="empty">
+    <property name="LaunchGNOME" type="bool" value="true"/>
   </property>
 </channel>
