@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="panels" type="empty">
+    <property name="panel-0" type="empty">
+      <property name="position" type="empty"/>
+      <property name="role" type="empty"/>
+      <property name="length" type="empty"/>
+      <property name="size" type="empty"/>
+      <property name="position-locked" type="empty"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="15"/>
+        <value type="int" value="17"/>
+        <value type="int" value="16"/>
+        <value type="int" value="12"/>
+        <value type="int" value="14"/>
+        <value type="int" value="13"/>
+        <value type="int" value="7"/>
+        <value type="int" value="4"/>
+        <value type="int" value="3"/>
+        <value type="int" value="11"/>
+        <value type="int" value="18"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+      </property>
+      <property name="background-style" type="uint" value="2"/>
+      <property name="background-image" type="string" value="/etc/xdg/xfce4/theme/mandriva-xfce-panel.png"/>
+    </property>
+    <property name="panel-1" type="empty">
+      <property name="position" type="empty"/>
+      <property name="role" type="empty"/>
+      <property name="length" type="empty"/>
+      <property name="autohide" type="bool" value="false"/>
+      <property name="size" type="empty"/>
+      <property name="position-locked" type="empty"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="2"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+      </property>
+      <property name="background-style" type="uint" value="2"/>
+      <property name="background-image" type="string" value="/etc/xdg/xfce4/theme/mandriva-xfce-panel.png"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="empty">
+      <property name="button-title" type="empty"/>
+      <property name="button-icon" type="empty"/>
+      <property name="custom-menu" type="empty"/>
+      <property name="show-tooltips" type="empty"/>
+    </property>
+    <property name="plugin-4" type="string" value="weather">
+      <property name="style" type="empty"/>
+      <property name="workspace-actions" type="empty"/>
+    </property>
+    <property name="plugin-6" type="empty">
+      <property name="flat-buttons" type="empty"/>
+      <property name="show-handle" type="empty"/>
+      <property name="grouping" type="empty"/>
+      <property name="show-wireframes" type="empty"/>
+      <property name="show-only-minimized" type="empty"/>
+      <property name="show-labels" type="empty"/>
+      <property name="rotate-vertically" type="empty"/>
+      <property name="switch-workspace-on-unminimize" type="empty"/>
+    </property>
+    <property name="plugin-11" type="empty">
+      <property name="names-visible" type="array">
+        <value type="string" value="orage"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="net_applet"/>
+        <value type="string" value="mdkapplet"/>
+        <value type="string" value="claws-mail"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="gnome-settings-daemon"/>
+      </property>
+    </property>
+    <property name="plugin-7" type="empty">
+      <property name="expand" type="empty"/>
+      <property name="style" type="empty"/>
+    </property>
+    <property name="plugin-12" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="13120284674.desktop"/>
+      </property>
+      <property name="show-label" type="empty"/>
+    </property>
+    <property name="plugin-13" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="13120284081.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-14" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="13120284825.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-15" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="13120284463.desktop"/>
+      </property>
+      <property name="show-label" type="bool" value="false"/>
+    </property>
+    <property name="plugin-16" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="13120285428.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-17" type="empty">
+      <property name="items" type="array">
+        <value type="string" value="13120285297.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-10" type="empty"/>
+    <property name="plugin-8" type="empty"/>
+    <property name="plugin-9" type="empty"/>
+    <property name="plugin-2" type="empty"/>
+    <property name="plugin-5" type="empty"/>
+    <property name="plugin-3" type="string" value="cpugraph"/>
+    <property name="plugin-18" type="string" value="xfce4-orageclock-plugin"/>
+  </property>
+</channel>
