@@ -15,7 +15,7 @@ install:
 	-install -d $(DESTDIR)$(xfceconfdir)/autostart
 	install -m 644 common/autostart/* $(DESTDIR)$(xfceconfdir)/autostart/
 	-install -d $(DESTDIR)$(xfceconfdir)/menus
-	install -m 644 common/menus/xfce-applications.menu $(DESTDIR)$(xfceconfdir)/menus/xfce-applications.menu
+	install -m 644 common/xfce4/menus/xfce-applications.menu $(DESTDIR)$(xfceconfdir)/xfce4/menus/xfce-applications.menu
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/desktop
 	-install -d $(DESTDIR)$(xfceconfdir)/xfce4/panel
