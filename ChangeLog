@@ -1,3 +1,63 @@
+2011-07-30 13:15  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* Flash/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
+	  Free/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
+	  Makefile,
+	  One/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
+	  Powerpack/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
+	  common/Terminal/terminalrc,
+	  common/Thunar/thunarrc,
+	  common/menus,
+	  common/xfce4/helpers.rc,
+	  common/xfce4/volstatus,
+	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
+	  -
+	  update
+	  configuration
+	  for
+	  Xfce-4.8
+	  (finally
+	  \o/
+	  )
+
+2011-05-13 21:57  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/helpers.rc:
+	  -
+	  update
+	  helpers.rc
+	  file
+
+2010-06-04 12:51  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  04_Jun
+
+2010-06-04 12:49  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml:
+	  -
+	  use
+	  auto-choose
+	  option
+	  instead
+	  of
+	  scaled
+	  wallpaper
+	  style
+
 2010-06-04 12:49  Tomasz Paweł Gajc <tpg at mandriva.org>
 
 	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml:
