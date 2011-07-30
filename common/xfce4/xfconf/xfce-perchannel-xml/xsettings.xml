@@ -5,7 +5,7 @@
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
-    <property name="CursorBlink" type="empty"/>
+    <property name="CursorBlink" type="bool" value="true"/>
     <property name="CursorBlinkTime" type="empty"/>
     <property name="ThemeName" type="string" value="Ia Ora Smooth"/>
     <property name="IconThemeName" type="string" value="elementary"/>
