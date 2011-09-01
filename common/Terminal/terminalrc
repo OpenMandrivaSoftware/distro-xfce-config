@@ -1,4 +1,8 @@
 [Configuration]
+BackgroundMode=TERMINAL_BACKGROUND_IMAGE
+BackgroundImageFile=/usr/share/mdk/backgrounds/default.jpg
+BackgroundImageStyle=TERMINAL_BACKGROUND_STYLE_STRETCHED
+BackgroundDarkness=0,400000
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBordersDefault=TRUE
@@ -16,8 +20,5 @@ MiscTabCloseMiddleClick=TRUE
 MiscTabPosition=GTK_POS_TOP
 MiscHighlightUrls=TRUE
 ShortcutsNoMenukey=TRUE
-BackgroundMode=TERMINAL_BACKGROUND_IMAGE
-BackgroundImageFile=/usr/share/mdk/backgrounds/default.jpg
-BackgroundDarkness=0,400000
-BackgroundImageStyle=TERMINAL_BACKGROUND_STYLE_STRETCHED
+ScrollingOnOutput=FALSE
 
