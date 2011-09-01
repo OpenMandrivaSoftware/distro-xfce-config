@@ -1,3 +1,141 @@
+2011-09-01 20:44  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/Terminal/terminalrc,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
+	  -
+	  do
+	  not
+	  save
+	  session,
+	  always
+	  sue
+	  default
+	  one -
+	  do
+	  not
+	  scroll
+	  in
+	  terminal
+	  after
+	  print
+	  on
+	  std
+
+2011-07-30 20:35  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  30_Jul
+
+2011-07-30 20:34  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* Makefile:
+	  SILENT
+	  fix
+	  dir
+
+2011-07-30 20:32  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  30_Jul
+
+2011-07-30 20:32  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* Makefile:
+	  SILENT
+	  fix
+	  dir
+
+2011-07-30 20:28  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/menus,
+	  common/xfce4/menus,
+	  common/xfce4/menus/xfce-applications.menu,
+	  common/xfce4/panel/cpugraph-12.rc,
+	  common/xfce4/panel/cpugraph-3.rc,
+	  common/xfce4/panel/weather-11.rc,
+	  common/xfce4/panel/weather-4.rc,
+	  common/xfce4/panel/xfce4-orageclock-plugin-10.rc,
+	  common/xfce4/panel/xfce4-orageclock-plugin-18.rc,
+	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/thunar-volman.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
+	  -
+	  update
+	  configuration
+	  files
+	  one
+	  more
+	  time
+
+2011-07-30 19:26  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  30_Jul
+
+2011-07-30 19:26  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* Makefile:
+	  SILENT
+	  add
+	  back
+	  menus
+
+2011-07-30 19:24  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/menus,
+	  common/menus/xfce-applications.menu:
+	  -
+	  add
+	  back
+	  menus
+
+2011-07-30 18:40  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  30_Jul
+
+2011-07-30 18:40  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
+	  -
+	  add
+	  corrent
+	  session
+	  configuration
+	  file
+
+2011-07-30 14:40  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  30_Jul
+
 2011-07-30 20:34  Tomasz Paweł Gajc <tpg at mandriva.org>
 
 	* Makefile:
