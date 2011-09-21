@@ -1,3 +1,46 @@
+2011-09-21 22:57  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/menus/xfce-applications.menu:
+	  -
+	  update
+	  xfce-applications.menu
+	  from
+	  new
+	  garcon
+	  release
+
+2011-09-01 20:45  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  01_Sep
+
+2011-09-01 20:44  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/Terminal/terminalrc,
+	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
+	  -
+	  do
+	  not
+	  save
+	  session,
+	  always
+	  sue
+	  default
+	  one -
+	  do
+	  not
+	  scroll
+	  in
+	  terminal
+	  after
+	  print
+	  on
+	  std
+
 2011-09-01 20:44  Tomasz Paweł Gajc <tpg at mandriva.org>
 
 	* common/Terminal/terminalrc,
