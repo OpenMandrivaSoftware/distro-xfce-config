@@ -38,7 +38,7 @@
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="applicationsmenu">
-      <property name="button-title" type="empty"/>
+      <property name="button-title" type="string" value="Mandriva"/>
       <property name="button-icon" type="string" value="mandriva"/>
       <property name="custom-menu" type="bool" value="true"/>
       <property name="show-tooltips" type="bool" value="true"/>
