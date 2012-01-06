@@ -1,3 +1,48 @@
+2012-01-06 11:52  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
+	  -
+	  enable
+	  session
+	  saving
+	  feature
+	  (needs
+	  fixed
+	  xfce4-session-4.8.2-3)
+
+2011-09-23 03:37  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml:
+	  -
+	  set
+	  default
+	  name
+	  to
+	  Mandriva
+	  on
+	  menu's
+	  button
+
+2011-09-21 22:57  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* ChangeLog:
+	  Generated
+	  by
+	  svn2cl
+	  the
+	  22_Sep
+
+2011-09-21 22:57  Tomasz Paweł Gajc <tpg at mandriva.org>
+
+	* common/xfce4/menus/xfce-applications.menu:
+	  -
+	  update
+	  xfce-applications.menu
+	  from
+	  new
+	  garcon
+	  release
+
 2011-09-21 22:57  Tomasz Paweł Gajc <tpg at mandriva.org>
 
 	* common/xfce4/menus/xfce-applications.menu:
