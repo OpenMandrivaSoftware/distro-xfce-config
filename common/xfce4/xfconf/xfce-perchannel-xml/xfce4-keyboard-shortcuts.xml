@@ -24,6 +24,8 @@
       <property name="XF86AudioMute" type="string" value="amixer -q set Master toggle"/>
       <property name="XF86AudioLowerVolume" type="string" value="amixer -q set Master 2%- unmute"/>
       <property name="XF86AudioRaiseVolume" type="string" value="amixer -q set Master 2%+ unmute"/>
+      <property name="&lt;Control&gt;Escape" type="string" value="xfce4-taskmanager"/>
+      <property name="Print" type="string" value="xfce4-screenshooter -f"/>
     </property>
   </property>
   <property name="xfwm4" type="empty">
