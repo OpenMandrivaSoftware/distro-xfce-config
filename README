@@ -1,4 +1,4 @@
-A set of configuration files for Mandriva Xfce desktop environment.
+A set of configuration files for OpenMandriva Xfce desktop environment.
 
 SVN:
 If you are going to add new files or directories please add specific entry into the Makefile.

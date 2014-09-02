@@ -1,6 +1,7 @@
 #!/bin/sh
 # Simple script which configure Xfce environment for a fresh user
-# Author: tpg@mandriva.org
+# 2012 Author: tpg@mandriva.org
+# 2014 Author: tpgxyz@gmail.com
 # Licensed under GPL terms
 
 MDV_FLAVOUR=`echo $META_CLASS`
@@ -23,38 +24,9 @@ Hidden=true
 EOF
 #
 
-	if [ $MDV_FLAVOUR = "download" -o $MDV_FLAVOUR = "desktop" ]; then
-	    if [ ! -e $USER_DESKTOP/register.desktop ]; then
-		cp -f /usr/share/mdk/desktop/free/register.desktop $USER_DESKTOP 2> /dev/null
-	    fi
-
-	    if [ ! -e $USER_DESKTOP/upgrade.desktop ]; then
-		cp -f /usr/share/mdk/desktop/one/upgrade.desktop $USER_DESKTOP 2> /dev/null
-	    fi
-
-	    if [ ! -e $USER_DESKTOP/mandriva-draklive-install.desktop ]; then
-		cp -f /usr/share/applications/mandriva-draklive-install.desktop $USER_DESKTOP 2> /dev/null
-	    fi
-		if [ "$(pidof xfdesktop)" ]; then 
-		    xfdesktop --reload 1> /dev/null; echo "xfce4-firstrun: xfdesktop reloaded.";
-		fi
-	    exit || 0
-
-	else
-	    if [ ! -e $USER_DESKTOP/register.desktop ]; then
-		cp -f /usr/share/mdk/desktop/powerpack/register.desktop $USER_DESKTOP 2> /dev/null
-	    fi
-
-	    if [ ! -e $USER_DESKTOP/mandriva-draklive-install.desktop ]; then
-		cp -f /usr/share/applications/mandriva-draklive-install.desktop $USER_DESKTOP 2> /dev/null
-	    fi
-		if [ "$(pidof xfdesktop)" ]; then 
-		    xfdesktop --reload 1> /dev/null; echo "xfce4-firstrun: xfdesktop reloaded.";
-		fi
-	    exit || 0
+	if [ "$(pidof xfdesktop)" ]; then 
+		xfdesktop --reload 1> /dev/null; echo "xfce4-firstrun: xfdesktop reloaded.";
 	fi
-    else echo "xfce4-firstrun: make sure you have installed xdg-user-dirs-gtk and xdg-user-dir packages."
-    fi
 fi
 
 #EOF
