@@ -1,2946 +1,728 @@
-2012-03-14 00:37  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
-	  -
-	  fix
-	  shortcuts
-	  configuration
-	  file
-
-2012-03-13 23:47  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
-	  -
-	  add
-	  keyboard
-	  shortcuts
-	  to
-	  run
-	  xfce4-taskmanager
-	  and
-	  xfce4-screenshooter
-	  (dont
-	  know
-	  who
-	  they
-	  could
-	  be
-	  missing)
-
-2012-01-06 12:13  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  06_Jan
-
-2012-01-06 12:13  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/gigolo.desktop:
-	  -
-	  start
-	  gigolo
-	  after
-	  each
-	  login
-
-2012-01-06 11:52  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  06_Jan
-
-2012-01-06 11:52  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
-	  -
-	  enable
-	  session
-	  saving
-	  feature
-	  (needs
-	  fixed
-	  xfce4-session-4.8.2-3)
-
-2012-01-06 12:13  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/gigolo.desktop:
-	  -
-	  start
-	  gigolo
-	  after
-	  each
-	  login
-
-2012-01-06 11:52  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  06_Jan
-
-2012-01-06 11:52  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
-	  -
-	  enable
-	  session
-	  saving
-	  feature
-	  (needs
-	  fixed
-	  xfce4-session-4.8.2-3)
-
-2012-01-06 11:52  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
-	  -
-	  enable
-	  session
-	  saving
-	  feature
-	  (needs
-	  fixed
-	  xfce4-session-4.8.2-3)
-
-2011-09-23 03:37  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml:
-	  -
-	  set
-	  default
-	  name
-	  to
-	  Mandriva
-	  on
-	  menu's
-	  button
-
-2011-09-21 22:57  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  22_Sep
-
-2011-09-21 22:57  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/menus/xfce-applications.menu:
-	  -
-	  update
-	  xfce-applications.menu
-	  from
-	  new
-	  garcon
-	  release
-
-2011-09-21 22:57  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/menus/xfce-applications.menu:
-	  -
-	  update
-	  xfce-applications.menu
-	  from
-	  new
-	  garcon
-	  release
-
-2011-09-01 20:45  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  01_Sep
-
-2011-09-01 20:44  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
-	  -
-	  do
-	  not
-	  save
-	  session,
-	  always
-	  sue
-	  default
-	  one -
-	  do
-	  not
-	  scroll
-	  in
-	  terminal
-	  after
-	  print
-	  on
-	  std
-
-2011-09-01 20:44  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
-	  -
-	  do
-	  not
-	  save
-	  session,
-	  always
-	  sue
-	  default
-	  one -
-	  do
-	  not
-	  scroll
-	  in
-	  terminal
-	  after
-	  print
-	  on
-	  std
-
-2011-07-30 20:35  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 20:34  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  SILENT
-	  fix
-	  dir
-
-2011-07-30 20:32  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 20:32  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  SILENT
-	  fix
-	  dir
-
-2011-07-30 20:28  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/menus,
-	  common/xfce4/menus,
-	  common/xfce4/menus/xfce-applications.menu,
-	  common/xfce4/panel/cpugraph-12.rc,
-	  common/xfce4/panel/cpugraph-3.rc,
-	  common/xfce4/panel/weather-11.rc,
-	  common/xfce4/panel/weather-4.rc,
-	  common/xfce4/panel/xfce4-orageclock-plugin-10.rc,
-	  common/xfce4/panel/xfce4-orageclock-plugin-18.rc,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/thunar-volman.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  update
-	  configuration
-	  files
-	  one
-	  more
-	  time
-
-2011-07-30 19:26  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 19:26  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  SILENT
-	  add
-	  back
-	  menus
-
-2011-07-30 19:24  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/menus,
-	  common/menus/xfce-applications.menu:
-	  -
-	  add
-	  back
-	  menus
-
-2011-07-30 18:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 18:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
-	  -
-	  add
-	  corrent
-	  session
-	  configuration
-	  file
-
-2011-07-30 14:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 20:34  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  SILENT
-	  fix
-	  dir
-
-2011-07-30 20:32  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 20:32  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  SILENT
-	  fix
-	  dir
-
-2011-07-30 20:28  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/menus,
-	  common/xfce4/menus,
-	  common/xfce4/menus/xfce-applications.menu,
-	  common/xfce4/panel/cpugraph-12.rc,
-	  common/xfce4/panel/cpugraph-3.rc,
-	  common/xfce4/panel/weather-11.rc,
-	  common/xfce4/panel/weather-4.rc,
-	  common/xfce4/panel/xfce4-orageclock-plugin-10.rc,
-	  common/xfce4/panel/xfce4-orageclock-plugin-18.rc,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/thunar-volman.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  update
-	  configuration
-	  files
-	  one
-	  more
-	  time
-
-2011-07-30 19:26  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 19:26  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  SILENT
-	  add
-	  back
-	  menus
-
-2011-07-30 19:24  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/menus,
-	  common/menus/xfce-applications.menu:
-	  -
-	  add
-	  back
-	  menus
-
-2011-07-30 18:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 18:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
-	  -
-	  add
-	  corrent
-	  session
-	  configuration
-	  file
-
-2011-07-30 14:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 20:32  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  SILENT
-	  fix
-	  dir
-
-2011-07-30 20:28  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/menus,
-	  common/xfce4/menus,
-	  common/xfce4/menus/xfce-applications.menu,
-	  common/xfce4/panel/cpugraph-12.rc,
-	  common/xfce4/panel/cpugraph-3.rc,
-	  common/xfce4/panel/weather-11.rc,
-	  common/xfce4/panel/weather-4.rc,
-	  common/xfce4/panel/xfce4-orageclock-plugin-10.rc,
-	  common/xfce4/panel/xfce4-orageclock-plugin-18.rc,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/thunar-volman.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  update
-	  configuration
-	  files
-	  one
-	  more
-	  time
-
-2011-07-30 19:26  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 19:26  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  SILENT
-	  add
-	  back
-	  menus
-
-2011-07-30 19:24  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/menus,
-	  common/menus/xfce-applications.menu:
-	  -
-	  add
-	  back
-	  menus
-
-2011-07-30 18:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 18:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
-	  -
-	  add
-	  corrent
-	  session
-	  configuration
-	  file
-
-2011-07-30 14:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 19:26  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  SILENT
-	  add
-	  back
-	  menus
-
-2011-07-30 19:24  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/menus,
-	  common/menus/xfce-applications.menu:
-	  -
-	  add
-	  back
-	  menus
-
-2011-07-30 18:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 18:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
-	  -
-	  add
-	  corrent
-	  session
-	  configuration
-	  file
-
-2011-07-30 14:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 18:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml:
-	  -
-	  add
-	  corrent
-	  session
-	  configuration
-	  file
-
-2011-07-30 14:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 14:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml:
-	  -
-	  fix
-	  workspaces
-	  plugin
-
-2011-07-30 14:29  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 14:28  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  -
-	  copy
-	  panel
-	  files
-
-2011-07-30 14:12  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 14:11  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/Xcursor.xrdb,
-	  common/xfce4/Xft.xrdb,
-	  common/xfce4/panel/cpugraph-3.rc,
-	  common/xfce4/panel/launcher-12,
-	  common/xfce4/panel/launcher-12/13120284674.desktop,
-	  common/xfce4/panel/launcher-13,
-	  common/xfce4/panel/launcher-13/13120284081.desktop,
-	  common/xfce4/panel/launcher-14,
-	  common/xfce4/panel/launcher-14/13120284825.desktop,
-	  common/xfce4/panel/launcher-15,
-	  common/xfce4/panel/launcher-15/13120284463.desktop,
-	  common/xfce4/panel/launcher-16,
-	  common/xfce4/panel/launcher-16/13120285428.desktop,
-	  common/xfce4/panel/launcher-17,
-	  common/xfce4/panel/launcher-17/13120285297.desktop,
-	  common/xfce4/panel/weather-4.rc,
-	  common/xfce4/panel/xfce4-orageclock-plugin-18.rc,
-	  common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/thunar-volman.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  add
-	  panel
-	  activators -
-	  add
-	  xfconf
-	  settings
-
-2011-07-30 14:06  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/pointers.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  delete
-	  old
-	  panel
-	  files
-
-2011-07-30 14:05  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/theme/gtkrc:
-	  -
-	  delete
-	  old
-	  gtkrc
-	  file
-
-2011-07-30 14:05  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/actions-12.rc,
-	  common/xfce4/panel/actions-16.rc,
-	  common/xfce4/panel/clock-14.rc,
-	  common/xfce4/panel/launcher-10.rc,
-	  common/xfce4/panel/launcher-12.rc,
-	  common/xfce4/panel/launcher-7.rc,
-	  common/xfce4/panel/launcher-8.rc,
-	  common/xfce4/panel/launcher-9.rc,
-	  common/xfce4/panel/pager-2.rc,
-	  common/xfce4/panel/panels.xml,
-	  common/xfce4/panel/places-1.rc,
-	  common/xfce4/panel/separator-11.rc,
-	  common/xfce4/panel/separator-13.rc,
-	  common/xfce4/panel/separator-6.rc,
-	  common/xfce4/panel/systray-4.rc,
-	  common/xfce4/panel/tasklist-3.rc,
-	  common/xfce4/panel/windowlist-1.rc,
-	  common/xfce4/panel/xfce4-menu-5.rc,
-	  common/xfce4/panel/xfce4-mixer-plugin-2.rc:
-	  -
-	  delete
-	  old
-	  panel
-	  configuration
-
-2011-07-30 14:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/xfce4-tips-autostart.desktop,
-	  common/autostart/xfce4-volstatus-icon.desktop:
-	  -
-	  delete
-	  old
-	  files
-
-2011-07-30 14:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/accels.scm,
-	  common/Thunar/uca.xml,
-	  common/Thunar/volmanrc:
-	  -
-	  delete
-	  old
-	  files
-
-2011-07-30 13:42  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  enable
-	  more
-	  workspaces
-
-2011-07-30 13:24  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  -
-	  drop
-	  menus
-
-2011-07-30 13:16  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 13:15  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Free/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Makefile,
-	  One/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Powerpack/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  common/Terminal/terminalrc,
-	  common/Thunar/thunarrc,
-	  common/menus,
-	  common/xfce4/helpers.rc,
-	  common/xfce4/volstatus,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  update
-	  configuration
-	  for
-	  Xfce-4.8
-	  (finally
-	  \o/
-	  )
-
-2011-07-30 14:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml:
-	  -
-	  fix
-	  workspaces
-	  plugin
-
-2011-07-30 14:29  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 14:28  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  -
-	  copy
-	  panel
-	  files
-
-2011-07-30 14:12  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 14:11  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/Xcursor.xrdb,
-	  common/xfce4/Xft.xrdb,
-	  common/xfce4/panel/cpugraph-3.rc,
-	  common/xfce4/panel/launcher-12,
-	  common/xfce4/panel/launcher-12/13120284674.desktop,
-	  common/xfce4/panel/launcher-13,
-	  common/xfce4/panel/launcher-13/13120284081.desktop,
-	  common/xfce4/panel/launcher-14,
-	  common/xfce4/panel/launcher-14/13120284825.desktop,
-	  common/xfce4/panel/launcher-15,
-	  common/xfce4/panel/launcher-15/13120284463.desktop,
-	  common/xfce4/panel/launcher-16,
-	  common/xfce4/panel/launcher-16/13120285428.desktop,
-	  common/xfce4/panel/launcher-17,
-	  common/xfce4/panel/launcher-17/13120285297.desktop,
-	  common/xfce4/panel/weather-4.rc,
-	  common/xfce4/panel/xfce4-orageclock-plugin-18.rc,
-	  common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/thunar-volman.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  add
-	  panel
-	  activators -
-	  add
-	  xfconf
-	  settings
-
-2011-07-30 14:06  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/pointers.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  delete
-	  old
-	  panel
-	  files
-
-2011-07-30 14:05  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/theme/gtkrc:
-	  -
-	  delete
-	  old
-	  gtkrc
-	  file
-
-2011-07-30 14:05  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/actions-12.rc,
-	  common/xfce4/panel/actions-16.rc,
-	  common/xfce4/panel/clock-14.rc,
-	  common/xfce4/panel/launcher-10.rc,
-	  common/xfce4/panel/launcher-12.rc,
-	  common/xfce4/panel/launcher-7.rc,
-	  common/xfce4/panel/launcher-8.rc,
-	  common/xfce4/panel/launcher-9.rc,
-	  common/xfce4/panel/pager-2.rc,
-	  common/xfce4/panel/panels.xml,
-	  common/xfce4/panel/places-1.rc,
-	  common/xfce4/panel/separator-11.rc,
-	  common/xfce4/panel/separator-13.rc,
-	  common/xfce4/panel/separator-6.rc,
-	  common/xfce4/panel/systray-4.rc,
-	  common/xfce4/panel/tasklist-3.rc,
-	  common/xfce4/panel/windowlist-1.rc,
-	  common/xfce4/panel/xfce4-menu-5.rc,
-	  common/xfce4/panel/xfce4-mixer-plugin-2.rc:
-	  -
-	  delete
-	  old
-	  panel
-	  configuration
-
-2011-07-30 14:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/xfce4-tips-autostart.desktop,
-	  common/autostart/xfce4-volstatus-icon.desktop:
-	  -
-	  delete
-	  old
-	  files
-
-2011-07-30 14:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/accels.scm,
-	  common/Thunar/uca.xml,
-	  common/Thunar/volmanrc:
-	  -
-	  delete
-	  old
-	  files
-
-2011-07-30 13:42  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  enable
-	  more
-	  workspaces
-
-2011-07-30 13:24  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  -
-	  drop
-	  menus
-
-2011-07-30 13:16  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 13:15  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Free/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Makefile,
-	  One/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Powerpack/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  common/Terminal/terminalrc,
-	  common/Thunar/thunarrc,
-	  common/menus,
-	  common/xfce4/helpers.rc,
-	  common/xfce4/volstatus,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  update
-	  configuration
-	  for
-	  Xfce-4.8
-	  (finally
-	  \o/
-	  )
-
-2011-07-30 14:28  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  -
-	  copy
-	  panel
-	  files
-
-2011-07-30 14:12  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 14:11  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/Xcursor.xrdb,
-	  common/xfce4/Xft.xrdb,
-	  common/xfce4/panel/cpugraph-3.rc,
-	  common/xfce4/panel/launcher-12,
-	  common/xfce4/panel/launcher-12/13120284674.desktop,
-	  common/xfce4/panel/launcher-13,
-	  common/xfce4/panel/launcher-13/13120284081.desktop,
-	  common/xfce4/panel/launcher-14,
-	  common/xfce4/panel/launcher-14/13120284825.desktop,
-	  common/xfce4/panel/launcher-15,
-	  common/xfce4/panel/launcher-15/13120284463.desktop,
-	  common/xfce4/panel/launcher-16,
-	  common/xfce4/panel/launcher-16/13120285428.desktop,
-	  common/xfce4/panel/launcher-17,
-	  common/xfce4/panel/launcher-17/13120285297.desktop,
-	  common/xfce4/panel/weather-4.rc,
-	  common/xfce4/panel/xfce4-orageclock-plugin-18.rc,
-	  common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/thunar-volman.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  add
-	  panel
-	  activators -
-	  add
-	  xfconf
-	  settings
-
-2011-07-30 14:06  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/pointers.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  delete
-	  old
-	  panel
-	  files
-
-2011-07-30 14:05  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/theme/gtkrc:
-	  -
-	  delete
-	  old
-	  gtkrc
-	  file
-
-2011-07-30 14:05  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/actions-12.rc,
-	  common/xfce4/panel/actions-16.rc,
-	  common/xfce4/panel/clock-14.rc,
-	  common/xfce4/panel/launcher-10.rc,
-	  common/xfce4/panel/launcher-12.rc,
-	  common/xfce4/panel/launcher-7.rc,
-	  common/xfce4/panel/launcher-8.rc,
-	  common/xfce4/panel/launcher-9.rc,
-	  common/xfce4/panel/pager-2.rc,
-	  common/xfce4/panel/panels.xml,
-	  common/xfce4/panel/places-1.rc,
-	  common/xfce4/panel/separator-11.rc,
-	  common/xfce4/panel/separator-13.rc,
-	  common/xfce4/panel/separator-6.rc,
-	  common/xfce4/panel/systray-4.rc,
-	  common/xfce4/panel/tasklist-3.rc,
-	  common/xfce4/panel/windowlist-1.rc,
-	  common/xfce4/panel/xfce4-menu-5.rc,
-	  common/xfce4/panel/xfce4-mixer-plugin-2.rc:
-	  -
-	  delete
-	  old
-	  panel
-	  configuration
-
-2011-07-30 14:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/xfce4-tips-autostart.desktop,
-	  common/autostart/xfce4-volstatus-icon.desktop:
-	  -
-	  delete
-	  old
-	  files
-
-2011-07-30 14:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/accels.scm,
-	  common/Thunar/uca.xml,
-	  common/Thunar/volmanrc:
-	  -
-	  delete
-	  old
-	  files
-
-2011-07-30 13:42  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  enable
-	  more
-	  workspaces
-
-2011-07-30 13:24  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  -
-	  drop
-	  menus
-
-2011-07-30 13:16  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 13:15  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Free/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Makefile,
-	  One/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Powerpack/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  common/Terminal/terminalrc,
-	  common/Thunar/thunarrc,
-	  common/menus,
-	  common/xfce4/helpers.rc,
-	  common/xfce4/volstatus,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  update
-	  configuration
-	  for
-	  Xfce-4.8
-	  (finally
-	  \o/
-	  )
-
-2011-07-30 14:11  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/Xcursor.xrdb,
-	  common/xfce4/Xft.xrdb,
-	  common/xfce4/panel/cpugraph-3.rc,
-	  common/xfce4/panel/launcher-12,
-	  common/xfce4/panel/launcher-12/13120284674.desktop,
-	  common/xfce4/panel/launcher-13,
-	  common/xfce4/panel/launcher-13/13120284081.desktop,
-	  common/xfce4/panel/launcher-14,
-	  common/xfce4/panel/launcher-14/13120284825.desktop,
-	  common/xfce4/panel/launcher-15,
-	  common/xfce4/panel/launcher-15/13120284463.desktop,
-	  common/xfce4/panel/launcher-16,
-	  common/xfce4/panel/launcher-16/13120285428.desktop,
-	  common/xfce4/panel/launcher-17,
-	  common/xfce4/panel/launcher-17/13120285297.desktop,
-	  common/xfce4/panel/weather-4.rc,
-	  common/xfce4/panel/xfce4-orageclock-plugin-18.rc,
-	  common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/thunar-volman.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  add
-	  panel
-	  activators -
-	  add
-	  xfconf
-	  settings
-
-2011-07-30 14:06  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/pointers.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  delete
-	  old
-	  panel
-	  files
-
-2011-07-30 14:05  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/theme/gtkrc:
-	  -
-	  delete
-	  old
-	  gtkrc
-	  file
-
-2011-07-30 14:05  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/actions-12.rc,
-	  common/xfce4/panel/actions-16.rc,
-	  common/xfce4/panel/clock-14.rc,
-	  common/xfce4/panel/launcher-10.rc,
-	  common/xfce4/panel/launcher-12.rc,
-	  common/xfce4/panel/launcher-7.rc,
-	  common/xfce4/panel/launcher-8.rc,
-	  common/xfce4/panel/launcher-9.rc,
-	  common/xfce4/panel/pager-2.rc,
-	  common/xfce4/panel/panels.xml,
-	  common/xfce4/panel/places-1.rc,
-	  common/xfce4/panel/separator-11.rc,
-	  common/xfce4/panel/separator-13.rc,
-	  common/xfce4/panel/separator-6.rc,
-	  common/xfce4/panel/systray-4.rc,
-	  common/xfce4/panel/tasklist-3.rc,
-	  common/xfce4/panel/windowlist-1.rc,
-	  common/xfce4/panel/xfce4-menu-5.rc,
-	  common/xfce4/panel/xfce4-mixer-plugin-2.rc:
-	  -
-	  delete
-	  old
-	  panel
-	  configuration
-
-2011-07-30 14:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/xfce4-tips-autostart.desktop,
-	  common/autostart/xfce4-volstatus-icon.desktop:
-	  -
-	  delete
-	  old
-	  files
-
-2011-07-30 14:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/accels.scm,
-	  common/Thunar/uca.xml,
-	  common/Thunar/volmanrc:
-	  -
-	  delete
-	  old
-	  files
-
-2011-07-30 13:42  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  enable
-	  more
-	  workspaces
-
-2011-07-30 13:24  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile:
-	  -
-	  drop
-	  menus
-
-2011-07-30 13:16  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  30_Jul
-
-2011-07-30 13:15  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Free/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Makefile,
-	  One/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Powerpack/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  common/Terminal/terminalrc,
-	  common/Thunar/thunarrc,
-	  common/menus,
-	  common/xfce4/helpers.rc,
-	  common/xfce4/volstatus,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  update
-	  configuration
-	  for
-	  Xfce-4.8
-	  (finally
-	  \o/
-	  )
-
-2011-07-30 13:15  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Free/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Makefile,
-	  One/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Powerpack/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  common/Terminal/terminalrc,
-	  common/Thunar/thunarrc,
-	  common/menus,
-	  common/xfce4/helpers.rc,
-	  common/xfce4/volstatus,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  update
-	  configuration
-	  for
-	  Xfce-4.8
-	  (finally
-	  \o/
-	  )
-
-2011-05-13 21:57  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/helpers.rc:
-	  -
-	  update
-	  helpers.rc
-	  file
-
-2010-06-04 12:51  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  04_Jun
-
-2010-06-04 12:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml:
-	  -
-	  use
-	  auto-choose
-	  option
-	  instead
-	  of
-	  scaled
-	  wallpaper
-	  style
-
-2010-06-04 12:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml:
-	  -
-	  use
-	  auto-choose
-	  option
-	  instead
-	  of
-	  scaled
-	  wallpaper
-	  style
-
-2010-03-14 16:55  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  14_Mar
-
-2010-03-14 16:54  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
-	  -
-	  add
-	  two
-	  new
-	  keyboard
-	  shortcuts o
-	  XF86HomePage
-	  binded
-	  to
-	  default
-	  webbrowser o
-	  XF86Mail
-	  binded
-	  to
-	  default
-	  Mail
-	  client
-
-2010-03-14 16:54  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
-	  -
-	  add
-	  two
-	  new
-	  keyboard
-	  shortcuts o
-	  XF86HomePage
-	  binded
-	  to
-	  default
-	  webbrowser o
-	  XF86Mail
-	  binded
-	  to
-	  default
-	  Mail
-	  client
-
-2010-02-27 21:30  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  27_Feb
-
-2010-02-27 21:29  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml:
-	  -
-	  always
-	  show
-	  xfce4-power-manager
-	  in
-	  tray
-
-2010-02-27 21:30  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  27_Feb
-
-2010-02-27 21:29  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml:
-	  -
-	  always
-	  show
-	  xfce4-power-manager
-	  in
-	  tray
-
-2010-02-27 21:29  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml:
-	  -
-	  always
-	  show
-	  xfce4-power-manager
-	  in
-	  tray
-
-2010-02-25 14:32  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  25_Feb
-
-2010-02-25 14:32  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* tools/xfce4-firstrun:
-	  SILENT
-	  delete
-	  it
-
-2010-02-25 14:30  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* tools/xfce4-firstrun:
-	  -
-	  xfce4-firstrun: o
-	  add
-	  checks
-	  for
-	  running
-	  xfdesktop o
-	  add
-	  some
-	  verbose
-	  messages o
-	  add
-	  header
-
-2010-02-25 13:51  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* tools/xfce4-firstrun:
-	  -
-	  silence
-	  the
-	  output
-	  of
-	  cp
-
-2010-02-25 13:38  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
-	  -
-	  fix
-	  xfce4-screnshooter
-	  syntax -
-	  fix
-	  /KeyRepeat/Delay
-	  xfconf
-	  key
-
-2010-02-25 14:32  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* tools/xfce4-firstrun:
-	  SILENT
-	  delete
-	  it
-
-2010-02-25 14:30  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* tools/xfce4-firstrun:
-	  -
-	  xfce4-firstrun: o
-	  add
-	  checks
-	  for
-	  running
-	  xfdesktop o
-	  add
-	  some
-	  verbose
-	  messages o
-	  add
-	  header
-
-2010-02-25 13:51  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* tools/xfce4-firstrun:
-	  -
-	  silence
-	  the
-	  output
-	  of
-	  cp
-
-2010-02-25 13:38  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
-	  -
-	  fix
-	  xfce4-screnshooter
-	  syntax -
-	  fix
-	  /KeyRepeat/Delay
-	  xfconf
-	  key
-
-2009-10-23 22:23  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Free/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml:
-	  -
-	  use
-	  Ia
-	  Ora
-	  Steel
-	  as
-	  a
-	  default
-	  theme
-	  for
-	  Free
-	  flavour
-
-2009-04-07 17:41  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml:
-	  -
-	  update
-	  settings
-	  for
-	  new
-	  xfce4-power-manager
-
-2009-03-26 17:53  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog:
-	  Generated
-	  by
-	  svn2cl
-	  the
-	  26_Mar
-
-2009-03-26 17:47  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/thunarrc:
-	  -
-	  adjust
-	  window
-	  size
-	  and
-	  separator
-	  places
-	  for
-	  Thunar
-
-2009-03-26 17:47  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/thunarrc: - adjust window size and separator places
-	  for Thunar
-
-2009-03-18 21:23  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 18_Mar
-
-2009-03-18 21:23  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile, common/menus, common/menus/xfce-applications.menu: -
-	  provide a better menu layout, inspired by KDE one ;)
-
-2009-03-18 21:23  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile, common/menus, common/menus/xfce-applications.menu: -
-	  provide a better menu layout, inspired by KDE one ;)
-
-2009-03-12 19:44  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 12_Mar
-
-2009-03-12 19:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml: - and pin up
-	  window button
-
-2009-03-12 19:20  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 12_Mar
-
-2009-03-12 19:20  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/xfce4-power-manager.desktop: - move
-	  xfce4-power-manager.desktop file to the xfce4-power-manager
-	  package
-
-2009-03-12 19:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml: - and pin up
-	  window button
-
-2009-03-12 19:20  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 12_Mar
-
-2009-03-12 19:20  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/xfce4-power-manager.desktop: - move
-	  xfce4-power-manager.desktop file to the xfce4-power-manager
-	  package
-
-2009-03-12 19:20  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/xfce4-power-manager.desktop: - move
-	  xfce4-power-manager.desktop file to the xfce4-power-manager
-	  package
-
-2009-03-05 19:45  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
-	  - bind amixer command to volume keys, with aumix-text toggling
-	  mute/unmute is impossible
-
-2009-02-28 16:36  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 28_Feb
-
-2009-02-28 16:34  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml: - use
-	  Smoke theme for notification bubbles
-
-2009-02-28 16:34  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml: - use
-	  Smoke theme for notification bubbles
-
-2009-02-17 15:02  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 17_Feb
-
-2009-02-15 05:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
-	  - add support for volume keys (mvbz #47218)
-
-2009-02-15 05:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
-	  - add support for volume keys (mvbz #47218)
-
-2009-02-11 16:32  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/actions-16.rc, common/xfce4/panel/clock-14.rc:
-	  - fix latest commit
-
-2009-02-09 22:19  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 09_Feb
-
-2009-02-09 22:18  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/clock-14.rc: - use LCD clock display
-
-2009-02-09 22:16  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/panels.xml,
-	  common/xfce4/panel/xfce4-mixer-plugin-1.rc,
-	  common/xfce4/panel/xfce4-mixer-plugin-2.rc: - place
-	  xfswitch-plugin on main panel
-
-2009-02-09 22:18  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/clock-14.rc: - use LCD clock display
-
-2009-02-09 22:16  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/panels.xml,
-	  common/xfce4/panel/xfce4-mixer-plugin-1.rc,
-	  common/xfce4/panel/xfce4-mixer-plugin-2.rc: - place
-	  xfswitch-plugin on main panel
-
-2009-02-07 01:03  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml:
-	  - update xfce4-power-manager settings
-	  - run xfce4-screenshooter while print screen key is pressed
-
-2009-02-03 15:08  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 03_Feb
-
-2009-02-03 15:01  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Free/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml, Makefile,
-	  One/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Powerpack/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  common/autostart/xfce4-firstrun.desktop,
-	  common/autostart/xfce4-update-config.desktop,
-	  tools/xfce4-firstrun, tools/xfce4-update-config: - rename
-	  xfce4-update-config to xfce4-firstrun
-	  - update configs for mdv flavours
-
-2009-02-03 14:27  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml:
-	  - update configs for Xfce-4.6-rc1
-
-2009-02-03 15:01  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Free/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml, Makefile,
-	  One/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Powerpack/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  common/autostart/xfce4-firstrun.desktop,
-	  common/autostart/xfce4-update-config.desktop,
-	  tools/xfce4-firstrun, tools/xfce4-update-config: - rename
-	  xfce4-update-config to xfce4-firstrun
-	  - update configs for mdv flavours
-
-2009-02-03 14:27  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml:
-	  - update configs for Xfce-4.6-rc1
-
-2009-01-19 14:54  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 19_Jan
-
-2009-01-19 14:54  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/thunarrc,
-	  common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/pointers.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: - fix
-	  xfce4-session.xml file, xfce should start fine
-	  - add config files for xfce4-appfinder.xml
-	  - tune up Thunar windw apperance, use compact view as default
-	  - use evdev as a default driver for keyboard
-	  - add more xfwm4 settings
-	  - tune up keyboard shortcuts, should be working again
-
-2009-01-19 14:54  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/thunarrc,
-	  common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/pointers.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-appfinder.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: - fix
-	  xfce4-session.xml file, xfce should start fine
-	  - add config files for xfce4-appfinder.xml
-	  - tune up Thunar windw apperance, use compact view as default
-	  - use evdev as a default driver for keyboard
-	  - add more xfwm4 settings
-	  - tune up keyboard shortcuts, should be working again
-
-2009-01-11 16:20  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml: -
-	  remove last-image-list
-
-2009-01-11 16:10  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/Xft.xrdb, common/xfce4/helpers.rc,
-	  common/xfce4/xfconf/xfce-perchannel-xml/accessibility.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboard-layout.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/keyboards.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/pointers.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-notifyd.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-settings-manager.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: - update
-	  xfconf settings
-	  - set DPI to 96
-	  - set keyboard shortcuts
-	  - set default options for xfce4-notifyd, xfce4-power-manager and
-	  keyboard-layout"
-
-2009-01-07 18:58  goetz
-
-	* ChangeLog, common/autostart/xfce4-power-manager.desktop: fix
-	  power manager desktop entry to only show in XFCE
-
-2008-11-24 20:25  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 24_Nov
-
-2008-11-24 20:25  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - add more support for Xfce-6.4 xfconf settings
-	  o install all xml files
-
-2009-01-07  Götz Waschk  <waschk at mandriva.org>
-
-	* common/autostart/xfce4-power-manager.desktop: - only show in XFCE
-
-2008-11-24 20:25  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - add more support for Xfce-6.4 xfconf settings
-	  o install all xml files
-
-2008-11-18 18:32  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/panels.xml: - adjust panels size
-
-2008-11-18 18:28  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/xfce4-power-manager.desktop,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-power-manager.xml:
-	  - add support for xfce4-power-manager
-
-2008-11-18 18:07  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: SILENT remove it
-
-2008-11-18 18:02  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/xfconf, Flash/xfce4/xfconf/xfce-perchannel-xml,
-	  Flash/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Free/xfce4/xfconf, Free/xfce4/xfconf/xfce-perchannel-xml,
-	  Free/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml, Makefile,
-	  One/xfce4/xfconf, One/xfce4/xfconf/xfce-perchannel-xml,
-	  One/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  Powerpack/xfce4/xfconf,
-	  Powerpack/xfce4/xfconf/xfce-perchannel-xml,
-	  Powerpack/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: - make it
-	  work with Xfce4.6
-
-2008-11-18 17:47  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc: - reduce font size to 12 for terminal
-
-2008-11-18 16:54  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml:
-	  - sync xfce4-keyboard-shortcuts.xml with upstream
-
-2008-10-18 17:10  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/panels.xml,
-	  common/xfce4/panel/xfce4-mixer-plugin-1.rc: - add xfce4-mixer
-	  launcher
-
-2008-10-18 16:48  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/launcher-10.rc,
-	  common/xfce4/panel/launcher-7.rc,
-	  common/xfce4/panel/launcher-8.rc,
-	  common/xfce4/panel/launcher-9.rc, common/xfce4/panel/places-1.rc:
-	  - provide translated launchers
-
-2008-10-18 16:46  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/launcher-12.rc: - fix one launcher
-
-2008-10-18 16:45  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/xfconf, common/xfce4/xfconf/xfce-perchannel-xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/displays.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/pointers.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-desktop.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-keyboard-shortcuts.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfce4-session.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfprint.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xfwm4.xml,
-	  common/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml: - add
-	  xfconf settings
-
-2008-10-18 16:41  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/actions-12.rc, common/xfce4/panel/clock-14.rc,
-	  common/xfce4/panel/launcher-10.rc,
-	  common/xfce4/panel/launcher-12.rc,
-	  common/xfce4/panel/launcher-7.rc,
-	  common/xfce4/panel/launcher-8.rc,
-	  common/xfce4/panel/launcher-9.rc, common/xfce4/panel/pager-2.rc,
-	  common/xfce4/panel/panels.xml, common/xfce4/panel/places-1.rc,
-	  common/xfce4/panel/separator-11.rc,
-	  common/xfce4/panel/separator-13.rc,
-	  common/xfce4/panel/separator-6.rc,
-	  common/xfce4/panel/systray-4.rc,
-	  common/xfce4/panel/tasklist-3.rc,
-	  common/xfce4/panel/windowlist-1.rc,
-	  common/xfce4/panel/xfce4-menu-5.rc: - add new panel layout
-
-2008-10-18 16:39  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/actions-12.rc, common/xfce4/panel/clock-14.rc,
-	  common/xfce4/panel/launcher-10.rc,
-	  common/xfce4/panel/launcher-11903833110.rc,
-	  common/xfce4/panel/launcher-7.rc,
-	  common/xfce4/panel/launcher-8.rc,
-	  common/xfce4/panel/launcher-9.rc, common/xfce4/panel/pager-2.rc,
-	  common/xfce4/panel/panels.xml,
-	  common/xfce4/panel/places-12098538970.rc,
-	  common/xfce4/panel/separator-11.rc,
-	  common/xfce4/panel/separator-11903028011.rc,
-	  common/xfce4/panel/separator-11986291100.rc,
-	  common/xfce4/panel/separator-11986292202.rc,
-	  common/xfce4/panel/separator-11986292313.rc,
-	  common/xfce4/panel/separator-12098539201.rc,
-	  common/xfce4/panel/separator-12098539332.rc,
-	  common/xfce4/panel/separator-13.rc,
-	  common/xfce4/panel/separator-6.rc,
-	  common/xfce4/panel/systray-11903027840.rc,
-	  common/xfce4/panel/tasklist-3.rc,
-	  common/xfce4/panel/windowlist-11986291591.rc,
-	  common/xfce4/panel/xfce4-menu-5.rc: - get rid of panel layout
-
-2008-10-18 16:38  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/mcs_settings, Free/xfce4/mcs_settings,
-	  One/xfce4/mcs_settings, Powerpack/xfce4/mcs_settings,
-	  common/xfce4/desktop, common/xfce4/notication-daemon-xfce: -
-	  prepare for Xfce6.4
-	  o remove mcs directories and settings
-
-2008-09-22 20:14  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 14:46  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 14:45  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/xfce4-login-sound.desktop: - plays login sound
-	  on startup (needs canberra-gtk)
-
-2008-09-22 14:15  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 14:14  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* tools/xfce4-update-config: - show draklive-install on desktop if
-	  found (to ease installation for iso)
-
-2008-09-22 14:01  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 14:00  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - add missing makefile entries for the last commit
-
-2008-09-22 13:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 13:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile, common/autostart/xfce4-update-config.desktop, tools,
-	  tools/xfce4-update-config: - add xfce4-update-config tool
-	  o add missing icons on Xfce desktop
-
-2008-09-22 14:46  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 14:45  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/xfce4-login-sound.desktop: - plays login sound
-	  on startup (needs canberra-gtk)
-
-2008-09-22 14:15  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 14:14  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* tools/xfce4-update-config: - show draklive-install on desktop if
-	  found (to ease installation for iso)
-
-2008-09-22 14:01  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 14:00  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - add missing makefile entries for the last commit
-
-2008-09-22 13:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 13:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile, common/autostart/xfce4-update-config.desktop, tools,
-	  tools/xfce4-update-config: - add xfce4-update-config tool
-	  o add missing icons on Xfce desktop
-
-2008-09-22 14:45  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/xfce4-login-sound.desktop: - plays login sound
-	  on startup (needs canberra-gtk)
-
-2008-09-22 14:15  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 14:14  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* tools/xfce4-update-config: - show draklive-install on desktop if
-	  found (to ease installation for iso)
-
-2008-09-22 14:01  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 14:00  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - add missing makefile entries for the last commit
-
-2008-09-22 13:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 13:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile, common/autostart/xfce4-update-config.desktop, tools,
-	  tools/xfce4-update-config: - add xfce4-update-config tool
-	  o add missing icons on Xfce desktop
-
-2008-09-22 14:14  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* tools/xfce4-update-config: - show draklive-install on desktop if
-	  found (to ease installation for iso)
-
-2008-09-22 14:01  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 14:00  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - add missing makefile entries for the last commit
-
-2008-09-22 13:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 13:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile, common/autostart/xfce4-update-config.desktop, tools,
-	  tools/xfce4-update-config: - add xfce4-update-config tool
-	  o add missing icons on Xfce desktop
-
-2008-09-22 14:00  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - add missing makefile entries for the last commit
-
-2008-09-22 13:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 22_Sep
-
-2008-09-22 13:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile, common/autostart/xfce4-update-config.desktop, tools,
-	  tools/xfce4-update-config: - add xfce4-update-config tool
-	  o add missing icons on Xfce desktop
-
-2008-09-22 13:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile, common/autostart/xfce4-update-config.desktop, tools,
-	  tools/xfce4-update-config: - add xfce4-update-config tool
-	  o add missing icons on Xfce desktop
-
-2008-09-21 16:54  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 21_Sep
-
-2008-09-21 16:54  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/places-12098538970.rc: - show icon for places
-	  plugin (no more visual conflict with file manager icon launcher)
-
-2008-09-21 16:53  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/launcher-9.rc: - use Thunar icon for file
-	  manager launcher
-
-2008-09-21 16:54  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/places-12098538970.rc: - show icon for places
-	  plugin (no more visual conflict with file manager icon launcher)
-
-2008-09-21 16:53  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/launcher-9.rc: - use Thunar icon for file
-	  manager launcher
-
-2008-09-14 14:55  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 14_Sep
-
-2008-09-14 14:55  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc: - do not scroll Terminal on new
-	  output
-
-2008-09-14 14:55  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc: - do not scroll Terminal on new
-	  output
-
-2008-09-07 14:34  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 07_Sep
-
-2008-09-07 14:33  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/Xft.xrdb: - move Xft.xrdb configuration file from
-	  xfce-utils
-	  o set DPI to 96 as a default value
-
-2008-09-07 14:23  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 07_Sep
-
-2008-09-07 14:23  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc: - set font size for terminal to 14
-
-2008-09-07 14:13  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 07_Sep
-
-2008-09-07 14:13  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/mcs_settings/gtk.xml,
-	  Free/xfce4/mcs_settings/gtk.xml, One/xfce4/mcs_settings/gtk.xml,
-	  Powerpack/xfce4/mcs_settings/gtk.xml: - set DPI to 96 as a
-	  default value
-
-2008-09-07 14:33  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/Xft.xrdb: - move Xft.xrdb configuration file from
-	  xfce-utils
-	  o set DPI to 96 as a default value
-
-2008-09-07 14:23  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 07_Sep
-
-2008-09-07 14:23  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc: - set font size for terminal to 14
-
-2008-09-07 14:13  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 07_Sep
-
-2008-09-07 14:13  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/mcs_settings/gtk.xml,
-	  Free/xfce4/mcs_settings/gtk.xml, One/xfce4/mcs_settings/gtk.xml,
-	  Powerpack/xfce4/mcs_settings/gtk.xml: - set DPI to 96 as a
-	  default value
-
-2008-09-07 14:23  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc: - set font size for terminal to 14
-
-2008-09-07 14:13  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 07_Sep
-
-2008-09-07 14:13  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/mcs_settings/gtk.xml,
-	  Free/xfce4/mcs_settings/gtk.xml, One/xfce4/mcs_settings/gtk.xml,
-	  Powerpack/xfce4/mcs_settings/gtk.xml: - set DPI to 96 as a
-	  default value
-
-2008-09-07 14:13  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/mcs_settings/gtk.xml,
-	  Free/xfce4/mcs_settings/gtk.xml, One/xfce4/mcs_settings/gtk.xml,
-	  Powerpack/xfce4/mcs_settings/gtk.xml: - set DPI to 96 as a
-	  default value
-
-2008-09-05 16:30  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 05_Sep
-
-2008-09-05 16:29  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/clock-14.rc: - display LED clock
-
-2008-09-05 16:20  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 05_Sep
-
-2008-09-05 16:20  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/volmanrc: - use dynamic scripts for user actions
-
-2008-09-05 16:29  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/clock-14.rc: - display LED clock
-
-2008-09-05 16:20  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 05_Sep
-
-2008-09-05 16:20  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/volmanrc: - use dynamic scripts for user actions
-
-2008-09-05 16:20  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/volmanrc: - use dynamic scripts for user actions
-
-2008-07-08 21:50  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 08_Jul
-
-2008-07-08 21:48  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/xfce4-volstatus-icon.desktop: -
-	  xfce4-volstatus-icon app should be autostarted only under Xfce
-	  (#41906)
-
-2008-07-08 21:48  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/autostart/xfce4-volstatus-icon.desktop: -
-	  xfce4-volstatus-icon app should be autostarted only under Xfce
-	  (#41906)
-
-2008-05-25 17:19  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 25_May
-
-2008-05-25 17:18  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/volmanrc: - use exaile for playing audio cd's
-
-2008-05-25 17:18  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/volmanrc: - use exaile for playing audio cd's
-
-2008-05-11 17:08  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 11_May
-
-2008-05-11 17:06  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - do not hardcode sysconfdir
-
-2008-05-11 17:06  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - do not hardcode sysconfdir
-
-2008-05-04 01:53  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 04_May
-
-2008-05-04 01:53  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/volmanrc: - use xfburn as a default burning tool
-	  - import photos with gthumb
-
-2008-05-03 22:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 04_May
-
-2008-05-04 01:53  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/volmanrc: - use xfburn as a default burning tool
-	  - import photos with gthumb
-
-2008-05-03 22:40  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 04_May
-
-2008-05-03 22:39  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/xfce4-mixer-12061139230.rc: SILENT really
-	  remove the mixer
-
-2008-05-03 22:36  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/panels.xml,
-	  common/xfce4/panel/places-12098538970.rc,
-	  common/xfce4/panel/separator-12098539201.rc,
-	  common/xfce4/panel/separator-12098539332.rc: - add places plugin
-	  entry
-	  - remove xfce4-mixer entry
-	  - add few separators
-
-2008-05-03 22:39  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/xfce4-mixer-12061139230.rc: SILENT really
-	  remove the mixer
-
-2008-05-03 22:36  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/panels.xml,
-	  common/xfce4/panel/places-12098538970.rc,
-	  common/xfce4/panel/separator-12098539201.rc,
-	  common/xfce4/panel/separator-12098539332.rc: - add places plugin
-	  entry
-	  - remove xfce4-mixer entry
-	  - add few separators
-
-2008-04-20 22:39  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 21_Apr
-
-2008-04-20 22:38  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/theme/gtkrc: - fix the gtkrc file
-	  o correct icon label transparency
-	  o set background pixmap only for Xfce panel widget
-
-2008-04-20 22:38  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/theme/gtkrc: - fix the gtkrc file
-	  o correct icon label transparency
-	  o set background pixmap only for Xfce panel widget
-
-2008-04-16 17:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile, common/xfce4/theme, common/xfce4/theme/gtkrc,
-	  common/xfce4/theme/mandriva-xfce-panel.png: - add theme
-	  o add background panel (image stolen from kde ;)
-	  o make transparent labels of icons on desktop
-
-2008-04-09 22:11  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 10_Apr
-
-2008-04-09 22:09  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc: - fix del key behaviour under
-	  terminal (#39550 and #36455)
-
-2008-04-09 22:09  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc: - fix del key behaviour under
-	  terminal (#39550 and #36455)
-
-2008-03-21 16:16  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 21_Mar
-
-2008-03-21 16:14  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/panels.xml: - make the second panel bigger
-
-2008-03-21 16:06  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/panels.xml,
-	  common/xfce4/panel/xfce4-mixer-12061139230.rc: - add mixer on
-	  panel
-
-2008-03-21 15:48  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/volmanrc: - handle brasero nicely on empty medium
-	  inster action
-
-2008-03-21 16:14  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/panels.xml: - make the second panel bigger
-
-2008-03-21 16:06  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/panels.xml,
-	  common/xfce4/panel/xfce4-mixer-12061139230.rc: - add mixer on
-	  panel
-
-2008-03-21 15:48  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/volmanrc: - handle brasero nicely on empty medium
-	  inster action
-
-2008-03-18 16:29  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 18_Mar
-
-2008-03-18 16:28  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/launcher-11903833110.rc: - use svn icon for
-	  drakconf
-
-2008-03-18 16:23  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/desktop/menu.xml, common/xfce4/desktop/menu.xml.be,
-	  common/xfce4/desktop/menu.xml.ca,
-	  common/xfce4/desktop/menu.xml.cs,
-	  common/xfce4/desktop/menu.xml.da,
-	  common/xfce4/desktop/menu.xml.el,
-	  common/xfce4/desktop/menu.xml.es,
-	  common/xfce4/desktop/menu.xml.et,
-	  common/xfce4/desktop/menu.xml.eu,
-	  common/xfce4/desktop/menu.xml.fi,
-	  common/xfce4/desktop/menu.xml.fr,
-	  common/xfce4/desktop/menu.xml.he,
-	  common/xfce4/desktop/menu.xml.hu,
-	  common/xfce4/desktop/menu.xml.it,
-	  common/xfce4/desktop/menu.xml.ja,
-	  common/xfce4/desktop/menu.xml.ko,
-	  common/xfce4/desktop/menu.xml.nb_NO,
-	  common/xfce4/desktop/menu.xml.nl,
-	  common/xfce4/desktop/menu.xml.pa,
-	  common/xfce4/desktop/menu.xml.pl,
-	  common/xfce4/desktop/menu.xml.pt_BR,
-	  common/xfce4/desktop/menu.xml.ro,
-	  common/xfce4/desktop/menu.xml.ru,
-	  common/xfce4/desktop/menu.xml.sk,
-	  common/xfce4/desktop/menu.xml.sv,
-	  common/xfce4/desktop/menu.xml.tr,
-	  common/xfce4/desktop/menu.xml.uk,
-	  common/xfce4/desktop/menu.xml.vi,
-	  common/xfce4/desktop/menu.xml.zh_TW,
-	  common/xfce4/panel/xfce4-menu-5.rc: - use the mandriva svg icons
-	  from tango package
-	  - add missing icon for "about" menu entry
-
-2008-03-18 16:28  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/launcher-11903833110.rc: - use svn icon for
-	  drakconf
-
-2008-03-18 16:23  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/desktop/menu.xml, common/xfce4/desktop/menu.xml.be,
-	  common/xfce4/desktop/menu.xml.ca,
-	  common/xfce4/desktop/menu.xml.cs,
-	  common/xfce4/desktop/menu.xml.da,
-	  common/xfce4/desktop/menu.xml.el,
-	  common/xfce4/desktop/menu.xml.es,
-	  common/xfce4/desktop/menu.xml.et,
-	  common/xfce4/desktop/menu.xml.eu,
-	  common/xfce4/desktop/menu.xml.fi,
-	  common/xfce4/desktop/menu.xml.fr,
-	  common/xfce4/desktop/menu.xml.he,
-	  common/xfce4/desktop/menu.xml.hu,
-	  common/xfce4/desktop/menu.xml.it,
-	  common/xfce4/desktop/menu.xml.ja,
-	  common/xfce4/desktop/menu.xml.ko,
-	  common/xfce4/desktop/menu.xml.nb_NO,
-	  common/xfce4/desktop/menu.xml.nl,
-	  common/xfce4/desktop/menu.xml.pa,
-	  common/xfce4/desktop/menu.xml.pl,
-	  common/xfce4/desktop/menu.xml.pt_BR,
-	  common/xfce4/desktop/menu.xml.ro,
-	  common/xfce4/desktop/menu.xml.ru,
-	  common/xfce4/desktop/menu.xml.sk,
-	  common/xfce4/desktop/menu.xml.sv,
-	  common/xfce4/desktop/menu.xml.tr,
-	  common/xfce4/desktop/menu.xml.uk,
-	  common/xfce4/desktop/menu.xml.vi,
-	  common/xfce4/desktop/menu.xml.zh_TW,
-	  common/xfce4/panel/xfce4-menu-5.rc: - use the mandriva svg icons
-	  from tango package
-	  - add missing icon for "about" menu entry
-
-2008-03-13 14:28  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 13_Mar
-
-2008-03-13 14:28  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/mcs_settings/gtk.xml: - correct the color theme for
-	  Flash
-
-2008-03-13 14:19  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/mcs_settings/desktop.xml,
-	  Free/xfce4/mcs_settings/desktop.xml,
-	  One/xfce4/mcs_settings/desktop.xml,
-	  Powerpack/xfce4/mcs_settings/desktop.xml,
-	  common/xfce4/panel/panels.xml: - icon's size on desktop is now 48
-	  - main panel size is reduced to 32
-	  - secondary panel size is reduced to 24
-
-2008-03-13 14:28  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/mcs_settings/gtk.xml: - correct the color theme for
-	  Flash
-
-2008-03-13 14:19  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/mcs_settings/desktop.xml,
-	  Free/xfce4/mcs_settings/desktop.xml,
-	  One/xfce4/mcs_settings/desktop.xml,
-	  Powerpack/xfce4/mcs_settings/desktop.xml,
-	  common/xfce4/panel/panels.xml: - icon's size on desktop is now 48
-	  - main panel size is reduced to 32
-	  - secondary panel size is reduced to 24
-
-2008-03-12 16:08  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 12_Mar
-
-2008-03-12 16:06  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/volmanrc: - fix executing of ristretto-import.sh
-
-2008-03-12 16:06  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/volmanrc: - fix executing of ristretto-import.sh
-
-2008-03-12 13:54  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 12_Mar
-
-2008-03-12 13:52  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/volmanrc: - use ristretto-import.sh instead of
-	  f-spot-import
-
-2008-03-12 13:52  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/volmanrc: - use ristretto-import.sh instead of
-	  f-spot-import
-
-2008-02-29 01:53  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 29_Feb
-
-2008-02-29 01:52  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/mcs_settings/desktop.xml,
-	  Free/xfce4/mcs_settings/desktop.xml,
-	  Free/xfce4/mcs_settings/gtk.xml, Makefile,
-	  One/xfce4/mcs_settings/desktop.xml,
-	  One/xfce4/mcs_settings/gtk.xml,
-	  Powerpack/xfce4/mcs_settings/desktop.xml,
-	  common/xfce4/notication-daemon-xfce/settingsrc: - fixes against
-	  lates ia_ora-gnome
-	  - fix typo in Makefile
-
-2008-02-29 01:52  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4/mcs_settings/desktop.xml,
-	  Free/xfce4/mcs_settings/desktop.xml,
-	  Free/xfce4/mcs_settings/gtk.xml, Makefile,
-	  One/xfce4/mcs_settings/desktop.xml,
-	  One/xfce4/mcs_settings/gtk.xml,
-	  Powerpack/xfce4/mcs_settings/desktop.xml,
-	  common/xfce4/notication-daemon-xfce/settingsrc: - fixes against
-	  lates ia_ora-gnome
-	  - fix typo in Makefile
-
-2008-02-23 23:27  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 24_Feb
-
-2008-02-23 23:26  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4, Flash/xfce4/mcs_settings,
-	  Flash/xfce4/mcs_settings/desktop.xml,
-	  Flash/xfce4/mcs_settings/gtk.xml,
-	  Flash/xfce4/mcs_settings/orage.xml,
-	  Flash/xfce4/mcs_settings/xfprint.xml,
-	  Flash/xfce4/mcs_settings/xfwm4.xml: - resync svn for Flash
-
-2008-02-23 22:46  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 23_Feb
-
-2008-02-23 22:44  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - update Makefile
-
-2008-02-23 22:41  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash, Powerpack/xfce4/mcs_settings/gtk.xml: - new snapshot
-	  o fix theme for Powerpack
-	  o add configs for Flash
-
-2008-02-23 23:26  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash/xfce4, Flash/xfce4/mcs_settings,
-	  Flash/xfce4/mcs_settings/desktop.xml,
-	  Flash/xfce4/mcs_settings/gtk.xml,
-	  Flash/xfce4/mcs_settings/orage.xml,
-	  Flash/xfce4/mcs_settings/xfprint.xml,
-	  Flash/xfce4/mcs_settings/xfwm4.xml: - resync svn for Flash
-
-2008-02-23 22:46  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 23_Feb
-
-2008-02-23 22:44  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - update Makefile
-
-2008-02-23 22:41  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash, Powerpack/xfce4/mcs_settings/gtk.xml: - new snapshot
-	  o fix theme for Powerpack
-	  o add configs for Flash
-
-2008-02-23 22:44  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - update Makefile
-
-2008-02-23 22:41  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Flash, Powerpack/xfce4/mcs_settings/gtk.xml: - new snapshot
-	  o fix theme for Powerpack
-	  o add configs for Flash
-
-2008-01-29 14:55  Thierry Vignaud <tvignaud at mandriva.com>
-
-	* ChangeLog: remove duplicated entries
-
-2008-01-24 16:53  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 24_Jan
-
-2008-01-24 16:53  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - change versioning
-
-2008-01-24 16:53  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - change versioning
-
-2008-01-08 17:32  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 08_Jan
-
-2008-01-08 17:31  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile, README, README.update.urpmi: - bum persion to 1.3.8
-	  - better description for README and README.update.urpmi files
-
-2008-01-08 17:25  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 08_Jan
-
-2008-01-08 17:24  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Thunar/accels.scm, common/Thunar/thunarrc,
-	  common/xfce4/notication-daemon-xfce/settingsrc: - add better
-	  thunarrc and settings rc for notification-daemon-xfce
-
-2008-01-07 18:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 07_Jan
-
-2008-01-07 18:03  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* README.update.urpmi, common/autostart/Mdkapplet.desktop: - remove
-	  Mdkapplet.desktop as it is now useless
-	  - provide README.update.urpmi
-
-2008-01-02 22:49  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 02_Jan
-
-2008-01-02 22:48  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 02_Jan
-
-2008-01-02 22:45  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 02_Jan
-
-2008-01-02 22:45  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog, Makefile: - s/cvs/svn in makefile
-
-2008-01-02 22:48  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 02_Jan
-
-2008-01-02 22:45  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 02_Jan
-
-2008-01-02 22:45  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog, Makefile: - s/cvs/svn in makefile
-
-2008-01-02 16:18  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 02_Jan
-
-2008-01-02 16:18  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 02_Jan
-
-2008-01-02 16:16  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 02_Jan
-
-2008-01-02 16:07  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - bump version
-
-2008-01-02 16:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc: - workaround for a vte's bug,
-	  backspace should now work under screen (#36455)
-
-2008-01-02 16:18  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 02_Jan
-
-2008-01-02 16:16  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by svn2cl the 02_Jan
-
-2008-01-02 16:07  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - bump version
-
-2008-01-02 16:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc: - workaround for a vte's bug,
-	  backspace should now work under screen (#36455)
-
-2008-01-02 16:16  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: Generated by cvs2cl the 02_Jan
-
-2008-01-02 16:07  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - bump version
-
-2008-01-02 16:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc: - workaround for a vte's bug,
-	  backspace should now work under screen (#36455)
-
-2008-01-02 16:07  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - bump version
-
-2008-01-02 16:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/Terminal/terminalrc: - workaround for a vte's bug,
-	  backspace should now work under screen (#36455)
-
-2007-12-27 17:08  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* common/xfce4/panel/pager-2.rc: - set rows value to 1 for pager,
-	  as it is more readable and looks nicer
-
-2007-12-26 01:05  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: SILENT clean makefile
-
-2007-12-26 01:04  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - complete the makefile
-
-2007-12-26 00:54  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile, common/xfce4/panel/pager-2.rc,
-	  common/xfce4/panel/panels.xml,
-	  common/xfce4/panel/separator-11986291100.rc,
-	  common/xfce4/panel/separator-11986292202.rc,
-	  common/xfce4/panel/separator-11986292313.rc,
-	  common/xfce4/panel/tasklist-3.rc,
-	  common/xfce4/panel/windowlist-11986291591.rc, icons: - new
-	  version 1.3.6
-	  - remove icons, as they are handled by xfdesktop package
-	  - make panel looks nicer
-	  o add some separators
-	  o do not use flat buttons in task list
-	  o add windowlist to the panel
-
-2007-12-19 01:25  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* ChangeLog: - clean ChangeLog file
-
-2007-12-14 19:48  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* Makefile: - update makefile
-
-2007-12-14 19:32  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* AUTHORS, ChangeLog, Free, Makefile, One, Powerpack, README,
-	  common, icons: Add move dirs to trunk
-
-2007-12-14 19:29  Tomasz Paweł Gajc <tpg at mandriva.org>
-
-	* .: Add trunk
+2014-09-03 00:55:57 +0200 tpg (Tomasz Paweł Gajc) 
+
+	* new sources (HEAD, origin/master, origin/HEAD, master)
+
+2012-03-14 00:38:19 +0000 tpg 
+
+	* Generated by svn2cl the 14_Mar
+
+2012-03-14 00:37:15 +0000 tpg 
+
+	* - fix shortcuts configuration file
+
+2012-03-13 23:47:06 +0000 tpg 
+
+	* - add keyboard shortcuts to run xfce4-taskmanager and xfce4-screenshooter (dont know who they could be missing)
+
+2012-01-06 12:13:16 +0000 tpg 
+
+	* Generated by svn2cl the 06_Jan
+
+2012-01-06 12:13:08 +0000 tpg 
+
+	* - start gigolo after each login
+
+2012-01-06 11:52:47 +0000 tpg 
+
+	* Generated by svn2cl the 06_Jan
+
+2012-01-06 11:52:32 +0000 tpg 
+
+	* - enable session saving feature (needs fixed xfce4-session-4.8.2-3)
+
+2011-09-23 03:37:13 +0000 tpg 
+
+	* - set default name to Mandriva on menu's button
+
+2011-09-21 22:57:32 +0000 tpg 
+
+	* Generated by svn2cl the 22_Sep
+
+2011-09-21 22:57:24 +0000 tpg 
+
+	* - update xfce-applications.menu from new garcon release
+
+2011-09-01 20:45:28 +0000 tpg 
+
+	* Generated by svn2cl the 01_Sep
+
+2011-09-01 20:44:18 +0000 tpg 
+
+	* - do not save session, always sue default one - do not scroll in terminal after print on std
+
+2011-07-30 20:35:22 +0000 tpg 
+
+	* Generated by svn2cl the 30_Jul
+
+2011-07-30 20:34:06 +0000 tpg 
+
+	* SILENT fix dir
+
+2011-07-30 20:32:55 +0000 tpg 
+
+	* Generated by svn2cl the 30_Jul
+
+2011-07-30 20:32:35 +0000 tpg 
+
+	* SILENT fix dir
+
+2011-07-30 20:28:48 +0000 tpg 
+
+	* - update configuration files one more time
+
+2011-07-30 19:26:48 +0000 tpg 
+
+	* Generated by svn2cl the 30_Jul
+
+2011-07-30 19:26:39 +0000 tpg 
+
+	* SILENT add back menus
+
+2011-07-30 19:24:21 +0000 tpg 
+
+	* - add back menus
+
+2011-07-30 18:40:14 +0000 tpg 
+
+	* Generated by svn2cl the 30_Jul
+
+2011-07-30 18:40:06 +0000 tpg 
+
+	* - add corrent session configuration file
+
+2011-07-30 14:40:41 +0000 tpg 
+
+	* Generated by svn2cl the 30_Jul
+
+2011-07-30 14:40:10 +0000 tpg 
+
+	* - fix workspaces plugin
+
+2011-07-30 14:29:05 +0000 tpg 
+
+	* Generated by svn2cl the 30_Jul
+
+2011-07-30 14:28:59 +0000 tpg 
+
+	* - copy panel files
+
+2011-07-30 14:12:10 +0000 tpg 
+
+	* Generated by svn2cl the 30_Jul
+
+2011-07-30 14:11:26 +0000 tpg 
+
+	* - add panel activators - add xfconf settings
+
+2011-07-30 14:06:24 +0000 tpg 
+
+	* - delete old panel files
+
+2011-07-30 14:05:48 +0000 tpg 
+
+	* - delete old gtkrc file
+
+2011-07-30 14:05:24 +0000 tpg 
+
+	* - delete old panel configuration
+
+2011-07-30 14:04:45 +0000 tpg 
+
+	* - delete old files
+
+2011-07-30 14:04:29 +0000 tpg 
+
+	* - delete old files
+
+2011-07-30 13:42:09 +0000 tpg 
+
+	* - enable more workspaces
+
+2011-07-30 13:24:55 +0000 tpg 
+
+	* - drop menus
+
+2011-07-30 13:16:57 +0000 tpg 
+
+	* Generated by svn2cl the 30_Jul
+
+2011-07-30 13:15:21 +0000 tpg 
+
+	* - update configuration for Xfce-4.8 (finally \o/ )
+
+2011-05-13 21:57:03 +0000 tpg 
+
+	* - update helpers.rc file
+
+2010-06-04 12:51:25 +0000 tpg 
+
+	* Generated by svn2cl the 04_Jun
+
+2010-06-04 12:49:46 +0000 tpg 
+
+	* - use auto-choose option instead of scaled wallpaper style
+
+2010-03-14 16:55:13 +0000 tpg 
+
+	* Generated by svn2cl the 14_Mar
+
+2010-03-14 16:54:57 +0000 tpg 
+
+	* - add two new keyboard shortcuts o XF86HomePage binded to default webbrowser o XF86Mail binded to default Mail client
+
+2010-02-27 21:30:12 +0000 tpg 
+
+	* Generated by svn2cl the 27_Feb
+
+2010-02-27 21:29:41 +0000 tpg 
+
+	* - always show xfce4-power-manager in tray
+
+2010-02-25 14:32:42 +0000 tpg 
+
+	* Generated by svn2cl the 25_Feb
+
+2010-02-25 14:32:10 +0000 tpg 
+
+	* SILENT delete it
+
+2010-02-25 14:30:37 +0000 tpg 
+
+	* - xfce4-firstrun: o add checks for running xfdesktop o add some verbose messages o add header
+
+2010-02-25 13:51:55 +0000 tpg 
+
+	* - silence the output of cp
+
+2010-02-25 13:38:35 +0000 tpg 
+
+	* - fix xfce4-screnshooter syntax - fix /KeyRepeat/Delay xfconf key
+
+2009-10-23 22:23:52 +0000 tpg 
+
+	* - use Ia Ora Steel as a default theme for Free flavour
+
+2009-04-07 17:41:08 +0000 tpg 
+
+	* - update settings for new xfce4-power-manager
+
+2009-03-26 17:53:36 +0000 tpg 
+
+	* Generated by svn2cl the 26_Mar
+
+2009-03-26 17:47:14 +0000 tpg 
+
+	* - adjust window size and separator places for Thunar
+
+2009-03-18 21:23:37 +0000 tpg 
+
+	* Generated by svn2cl the 18_Mar
+
+2009-03-18 21:23:29 +0000 tpg 
+
+	* - provide a better menu layout, inspired by KDE one ;)
+
+2009-03-12 19:44:55 +0000 tpg 
+
+	* Generated by svn2cl the 12_Mar
+
+2009-03-12 19:40:09 +0000 tpg 
+
+	* - and pin up window button
+
+2009-03-12 19:20:46 +0000 tpg 
+
+	* Generated by svn2cl the 12_Mar
+
+2009-03-12 19:20:39 +0000 tpg 
+
+	* - move xfce4-power-manager.desktop file to the xfce4-power-manager package
+
+2009-03-05 19:45:58 +0000 tpg 
+
+	* - bind amixer command to volume keys, with aumix-text toggling mute/unmute is impossible
+
+2009-02-28 16:36:02 +0000 tpg 
+
+	* Generated by svn2cl the 28_Feb
+
+2009-02-28 16:34:52 +0000 tpg 
+
+	* - use Smoke theme for notification bubbles
+
+2009-02-17 15:02:09 +0000 tpg 
+
+	* Generated by svn2cl the 17_Feb
+
+2009-02-15 05:40:48 +0000 tpg 
+
+	* - add support for volume keys (mvbz #47218)
+
+2009-02-11 16:33:32 +0000 tpg 
+
+	* Generated by svn2cl the 11_Feb
+
+2009-02-11 16:32:52 +0000 tpg 
+
+	* - fix latest commit
+
+2009-02-09 22:19:31 +0000 tpg 
+
+	* Generated by svn2cl the 09_Feb
+
+2009-02-09 22:18:46 +0000 tpg 
+
+	* - use LCD clock display
+
+2009-02-09 22:16:17 +0000 tpg 
+
+	* - place xfswitch-plugin on main panel
+
+2009-02-07 01:03:41 +0000 tpg 
+
+	* - update xfce4-power-manager settings - run xfce4-screenshooter while print screen key is pressed
+
+2009-02-03 15:08:01 +0000 tpg 
+
+	* Generated by svn2cl the 03_Feb
+
+2009-02-03 15:01:15 +0000 tpg 
+
+	* - rename xfce4-update-config to xfce4-firstrun - update configs for mdv flavours
+
+2009-02-03 14:27:31 +0000 tpg 
+
+	* - update configs for Xfce-4.6-rc1
+
+2009-01-19 14:54:58 +0000 tpg 
+
+	* Generated by svn2cl the 19_Jan
+
+2009-01-19 14:54:16 +0000 tpg 
+
+	* - fix xfce4-session.xml file, xfce should start fine - add config files for xfce4-appfinder.xml - tune up Thunar windw apperance, use compact view as default - use evdev as a default driver for keyboard - add more xfwm4 settings - tune up keyboard shortcuts, should be working again
+
+2009-01-11 16:22:48 +0000 tpg 
+
+	* Generated by svn2cl the 11_Jan
+
+2009-01-11 16:20:52 +0000 tpg 
+
+	* - remove last-image-list
+
+2009-01-11 16:10:10 +0000 tpg 
+
+	* - update xfconf settings - set DPI to 96 - set keyboard shortcuts - set default options for xfce4-notifyd, xfce4-power-manager and keyboard-layout"
+
+2009-01-07 18:58:44 +0000 goetz 
+
+	* fix power manager desktop entry to only show in XFCE
+
+2008-11-24 20:25:21 +0000 tpg 
+
+	* Generated by svn2cl the 24_Nov
+
+2008-11-24 20:25:09 +0000 tpg 
+
+	* - add more support for Xfce-6.4 xfconf settings o install all xml files
+
+2008-11-18 18:32:50 +0000 tpg 
+
+	* - adjust panels size
+
+2008-11-18 18:28:21 +0000 tpg 
+
+	* - add support for xfce4-power-manager
+
+2008-11-18 18:07:17 +0000 tpg 
+
+	* SILENT remove it
+
+2008-11-18 18:02:09 +0000 tpg 
+
+	* - make it work with Xfce4.6
+
+2008-11-18 17:47:34 +0000 tpg 
+
+	* - reduce font size to 12 for terminal
+
+2008-11-18 16:54:17 +0000 tpg 
+
+	* - sync xfce4-keyboard-shortcuts.xml with upstream
+
+2008-10-18 17:10:40 +0000 tpg 
+
+	* - add xfce4-mixer launcher
+
+2008-10-18 16:48:36 +0000 tpg 
+
+	* - provide translated launchers
+
+2008-10-18 16:46:52 +0000 tpg 
+
+	* - fix one launcher
+
+2008-10-18 16:45:26 +0000 tpg 
+
+	* - add xfconf settings
+
+2008-10-18 16:41:08 +0000 tpg 
+
+	* - add new panel layout
+
+2008-10-18 16:39:49 +0000 tpg 
+
+	* - get rid of panel layout
+
+2008-10-18 16:38:16 +0000 tpg 
+
+	* - prepare for Xfce6.4 o remove mcs directories and settings
+
+2008-09-22 20:14:08 +0000 tpg 
+
+	* Generated by svn2cl the 22_Sep
+
+2008-09-22 14:46:39 +0000 tpg 
+
+	* Generated by svn2cl the 22_Sep
+
+2008-09-22 14:45:44 +0000 tpg 
+
+	* - plays login sound on startup (needs canberra-gtk)
+
+2008-09-22 14:15:37 +0000 tpg 
+
+	* Generated by svn2cl the 22_Sep
+
+2008-09-22 14:14:51 +0000 tpg 
+
+	* - show draklive-install on desktop if found (to ease installation for iso)
+
+2008-09-22 14:01:19 +0000 tpg 
+
+	* Generated by svn2cl the 22_Sep
+
+2008-09-22 14:00:53 +0000 tpg 
+
+	* - add missing makefile entries for the last commit
+
+2008-09-22 13:49:42 +0000 tpg 
+
+	* Generated by svn2cl the 22_Sep
+
+2008-09-22 13:49:17 +0000 tpg 
+
+	* - add xfce4-update-config tool o add missing icons on Xfce desktop
+
+2008-09-21 16:54:32 +0000 tpg 
+
+	* Generated by svn2cl the 21_Sep
+
+2008-09-21 16:54:12 +0000 tpg 
+
+	* - show icon for places plugin (no more visual conflict with file manager icon launcher)
+
+2008-09-21 16:53:03 +0000 tpg 
+
+	* - use Thunar icon for file manager launcher
+
+2008-09-14 14:55:59 +0000 tpg 
+
+	* Generated by svn2cl the 14_Sep
+
+2008-09-14 14:55:50 +0000 tpg 
+
+	* - do not scroll Terminal on new output
+
+2008-09-07 14:34:33 +0000 tpg 
+
+	* Generated by svn2cl the 07_Sep
+
+2008-09-07 14:33:40 +0000 tpg 
+
+	* - move Xft.xrdb configuration file from xfce-utils o set DPI to 96 as a default value
+
+2008-09-07 14:23:43 +0000 tpg 
+
+	* Generated by svn2cl the 07_Sep
+
+2008-09-07 14:23:37 +0000 tpg 
+
+	* - set font size for terminal to 14
+
+2008-09-07 14:13:24 +0000 tpg 
+
+	* Generated by svn2cl the 07_Sep
+
+2008-09-07 14:13:15 +0000 tpg 
+
+	* - set DPI to 96 as a default value
+
+2008-09-05 16:30:16 +0000 tpg 
+
+	* Generated by svn2cl the 05_Sep
+
+2008-09-05 16:29:53 +0000 tpg 
+
+	* - display LED clock
+
+2008-09-05 16:20:51 +0000 tpg 
+
+	* Generated by svn2cl the 05_Sep
+
+2008-09-05 16:20:01 +0000 tpg 
+
+	* - use dynamic scripts for user actions
+
+2008-07-08 21:50:24 +0000 tpg 
+
+	* Generated by svn2cl the 08_Jul
+
+2008-07-08 21:48:30 +0000 tpg 
+
+	* - xfce4-volstatus-icon app should be autostarted only under Xfce (#41906)
+
+2008-05-25 17:19:01 +0000 tpg 
+
+	* Generated by svn2cl the 25_May
+
+2008-05-25 17:18:18 +0000 tpg 
+
+	* - use exaile for playing audio cd's
+
+2008-05-11 17:08:37 +0000 tpg 
+
+	* Generated by svn2cl the 11_May
+
+2008-05-11 17:06:55 +0000 tpg 
+
+	* - do not hardcode sysconfdir
+
+2008-05-04 01:53:31 +0000 tpg 
+
+	* Generated by svn2cl the 04_May
+
+2008-05-04 01:53:05 +0000 tpg 
+
+	* - use xfburn as a default burning tool - import photos with gthumb
+
+2008-05-03 22:40:59 +0000 tpg 
+
+	* Generated by svn2cl the 04_May
+
+2008-05-03 22:39:17 +0000 tpg 
+
+	* SILENT really remove the mixer
+
+2008-05-03 22:36:50 +0000 tpg 
+
+	* - add places plugin entry - remove xfce4-mixer entry - add few separators
+
+2008-04-20 22:39:11 +0000 tpg 
+
+	* Generated by svn2cl the 21_Apr
+
+2008-04-20 22:38:10 +0000 tpg 
+
+	* - fix the gtkrc file o correct icon label transparency o set background pixmap only for Xfce panel widget
+
+2008-04-16 17:49:40 +0000 tpg 
+
+	* - add theme o add background panel (image stolen from kde ;) o make transparent labels of icons on desktop
+
+2008-04-09 22:11:11 +0000 tpg 
+
+	* Generated by svn2cl the 10_Apr
+
+2008-04-09 22:09:11 +0000 tpg 
+
+	* - fix del key behaviour under terminal (#39550 and #36455)
+
+2008-03-21 16:16:02 +0000 tpg 
+
+	* Generated by svn2cl the 21_Mar
+
+2008-03-21 16:14:31 +0000 tpg 
+
+	* - make the second panel bigger
+
+2008-03-21 16:06:25 +0000 tpg 
+
+	* - add mixer on panel
+
+2008-03-21 15:48:32 +0000 tpg 
+
+	* - handle brasero nicely on empty medium inster action
+
+2008-03-18 16:29:18 +0000 tpg 
+
+	* Generated by svn2cl the 18_Mar
+
+2008-03-18 16:28:28 +0000 tpg 
+
+	* - use svn icon for drakconf
+
+2008-03-18 16:23:44 +0000 tpg 
+
+	* - use the mandriva svg icons from tango package - add missing icon for "about" menu entry
+
+2008-03-13 14:28:58 +0000 tpg 
+
+	* Generated by svn2cl the 13_Mar
+
+2008-03-13 14:28:08 +0000 tpg 
+
+	* - correct the color theme for Flash
+
+2008-03-13 14:19:17 +0000 tpg 
+
+	* - icon's size on desktop is now 48 - main panel size is reduced to 32 - secondary panel size is reduced to 24
+
+2008-03-12 16:08:25 +0000 tpg 
+
+	* Generated by svn2cl the 12_Mar
+
+2008-03-12 16:06:27 +0000 tpg 
+
+	* - fix executing of ristretto-import.sh
+
+2008-03-12 13:54:38 +0000 tpg 
+
+	* Generated by svn2cl the 12_Mar
+
+2008-03-12 13:52:18 +0000 tpg 
+
+	* - use ristretto-import.sh instead of f-spot-import
+
+2008-02-29 01:53:28 +0000 tpg 
+
+	* Generated by svn2cl the 29_Feb
+
+2008-02-29 01:52:22 +0000 tpg 
+
+	* - fixes against lates ia_ora-gnome - fix typo in Makefile
+
+2008-02-23 23:27:26 +0000 tpg 
+
+	* Generated by svn2cl the 24_Feb
+
+2008-02-23 23:26:53 +0000 tpg 
+
+	* - resync svn for Flash
+
+2008-02-23 22:46:10 +0000 tpg 
+
+	* Generated by svn2cl the 23_Feb
+
+2008-02-23 22:44:30 +0000 tpg 
+
+	* - update Makefile
+
+2008-02-23 22:41:15 +0000 tpg 
+
+	* - new snapshot o fix theme for Powerpack o add configs for Flash
+
+2008-01-29 14:55:20 +0000 tv 
+
+	* remove duplicated entries
+
+2008-01-24 16:53:27 +0000 tpg 
+
+	* Generated by svn2cl the 24_Jan
+
+2008-01-24 16:53:11 +0000 tpg 
+
+	* - change versioning
+
+2008-01-08 17:32:00 +0000 tpg 
+
+	* Generated by svn2cl the 08_Jan
+
+2008-01-08 17:31:53 +0000 tpg 
+
+	* - bum persion to 1.3.8 - better description for README and README.update.urpmi files
+
+2008-01-08 17:25:24 +0000 tpg 
+
+	* Generated by svn2cl the 08_Jan
+
+2008-01-08 17:24:38 +0000 tpg 
+
+	* - add better thunarrc and settings rc for notification-daemon-xfce
+
+2008-01-07 18:04:06 +0000 tpg 
+
+	* Generated by svn2cl the 07_Jan
+
+2008-01-07 18:03:56 +0000 tpg 
+
+	* - remove Mdkapplet.desktop as it is now useless - provide README.update.urpmi
+
+2008-01-02 22:49:17 +0000 tpg 
+
+	* Generated by svn2cl the 02_Jan
+
+2008-01-02 22:48:29 +0000 tpg 
+
+	* Generated by svn2cl the 02_Jan
+
+2008-01-02 22:45:13 +0000 tpg 
+
+	* Generated by svn2cl the 02_Jan
+
+2008-01-02 22:45:02 +0000 tpg 
+
+	* - s/cvs/svn in makefile
+
+2008-01-02 16:18:52 +0000 tpg 
+
+	* Generated by svn2cl the 02_Jan
+
+2008-01-02 16:18:25 +0000 tpg 
+
+	* Generated by svn2cl the 02_Jan
+
+2008-01-02 16:16:04 +0000 tpg 
+
+	* Generated by svn2cl the 02_Jan
+
+2008-01-02 16:07:23 +0000 tpg 
+
+	* - bump version
+
+2008-01-02 16:04:24 +0000 tpg 
+
+	* - workaround for a vte's bug, backspace should now work under screen (#36455)
+
+2007-12-27 17:08:06 +0000 tpg 
+
+	* - set rows value to 1 for pager, as it is more readable and looks nicer
+
+2007-12-26 01:05:46 +0000 tpg 
+
+	* SILENT clean makefile
+
+2007-12-26 01:04:44 +0000 tpg 
+
+	* - complete the makefile
+
+2007-12-26 00:54:37 +0000 tpg 
+
+	* - new version 1.3.6 - remove icons, as they are handled by xfdesktop package - make panel looks nicer  o add some separators  o do not use flat buttons in task list  o add windowlist to the panel
+
+2007-12-19 01:25:15 +0000 tpg 
+
+	* - clean ChangeLog file
+
+2007-12-14 19:48:20 +0000 tpg 
+
+	* - update makefile
+
+2007-12-14 19:32:55 +0000 tpg 
+
+	* Add move dirs to trunk
+
+2007-12-14 19:29:43 +0000 tpg 
+
+	* Add trunk
 
