@@ -34,8 +34,8 @@ install:
 	install -m 644 OpenMandriva/xfce4/xfconf/xfce-perchannel-xml/xsettings.xml $(DESTDIR)$(xfceprofdir)/OpenMandriva/xfce4/xfconf/xfce-perchannel-xml
 
 dist:
-	git archive --format=tar --prefix=$(NAME)-$(VERSION)/ HEAD | xz -2vec -T0 > $(NAME)-$(VERSION).tar.xz;
-	$(info $(NAME)-$(VERSION).tar.xz is ready)
+	git archive --format=tar --prefix=$(PACKAGE)-$(VERSION)/ HEAD | xz -2vec -T0 > $(PACKAGE)-$(VERSION).tar.xz;
+	$(info $(PACKAGE)-$(VERSION).tar.xz is ready)
 
 .PHONY: ChangeLog log changelog
 
