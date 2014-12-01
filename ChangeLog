@@ -1,6 +1,18 @@
+2014-12-01 22:18:52 +0100 tpg (Tomasz Paweł Gajc) 
+
+	* add new configs (HEAD, origin/master, origin/HEAD, master)
+
+2014-09-03 00:58:48 +0200 tpg (Tomasz Paweł Gajc) 
+
+	* fix make file
+
+2014-09-03 00:57:24 +0200 tpg (Tomasz Paweł Gajc) 
+
+	* generated changelog
+
 2014-09-03 00:55:57 +0200 tpg (Tomasz Paweł Gajc) 
 
-	* new sources (HEAD, origin/master, origin/HEAD, master)
+	* new sources
 
 2012-03-14 00:38:19 +0000 tpg 
 
