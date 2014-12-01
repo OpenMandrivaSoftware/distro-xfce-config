@@ -14,7 +14,7 @@
     <property name="EnableInputFeedbackSounds" type="bool" value="true"/>
   </property>
   <property name="Xft" type="empty">
-    <property name="Antialias" type="int" value="-1"/>
+    <property name="Antialias" type="int" value="1"/>
     <property name="Hinting" type="int" value="-1"/>
     <property name="HintStyle" type="string" value="hintfull"/>
     <property name="RGBA" type="string" value="rgb"/>
@@ -33,7 +33,7 @@
     <property name="MenuImages" type="bool" value="true"/>
     <property name="ButtonImages" type="bool" value="true"/>
     <property name="MenuBarAccel" type="string" value="F10"/>
-    <property name="CursorThemeName" type="string" value=""/>
+    <property name="CursorThemeName" type="string" value="wonderland"/>
     <property name="CursorThemeSize" type="int" value="0"/>
     <property name="IMModule" type="string" value=""/>
   </property>
