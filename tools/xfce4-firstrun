@@ -27,6 +27,7 @@ EOF
 	if [ "$(pidof xfdesktop)" ]; then 
 		xfdesktop --reload 1> /dev/null; echo "xfce4-firstrun: xfdesktop reloaded.";
 	fi
+    fi
 fi
 
 #EOF
