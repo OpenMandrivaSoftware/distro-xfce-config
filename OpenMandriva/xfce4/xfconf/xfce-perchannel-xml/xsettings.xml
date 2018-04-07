@@ -8,7 +8,7 @@
     <property name="CursorBlink" type="bool" value="true"/>
     <property name="CursorBlinkTime" type="int" value="1200"/>
     <property name="ThemeName" type="string" value="Ia Ora Smooth"/>
-    <property name="IconThemeName" type="string" value="elementary"/>
+    <property name="IconThemeName" type="string" value="Adwaita"/>
     <property name="SoundThemeName" type="string" value="default"/>
     <property name="EnableEventSounds" type="bool" value="true"/>
     <property name="EnableInputFeedbackSounds" type="bool" value="true"/>
