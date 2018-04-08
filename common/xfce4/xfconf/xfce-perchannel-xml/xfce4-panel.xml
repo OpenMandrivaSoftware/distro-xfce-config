@@ -49,7 +49,6 @@
       <property name="button-icon" type="string" value="/usr/share/icons/openmandriva.svg"/>
       <property name="custom-menu" type="bool" value="true"/>
       <property name="show-tooltips" type="bool" value="true"/>
-      <property name="custom-menu-file" type="string" value="/etc/xdg/xfce4/menus/xfce-applications.menu"/>
       <property name="show-button-title" type="bool" value="true"/>
     </property>
     <property name="plugin-4" type="empty">
